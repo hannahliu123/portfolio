@@ -1,0 +1,8 @@
+TO-DO LIST: (so i don't forget everything i need to do)
+
+1. About Me Button
+    - Make the button look nicer (fit in better? maybe fixed position?)
+    - Add JS to the about me button (so it actually works lol)
+    - Add something below the hero section so you don't see the About Me part before you scroll
+2. Display the nav bar one you scroll
+3. Fix the Hero Section so everything looks nice

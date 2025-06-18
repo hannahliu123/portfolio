@@ -14,7 +14,7 @@
 body {
     font-family: "Outfit", sans-serif;
     margin: 0;
-    padding: 15px;
+    padding: 20px;
     background-color: var(--warm-yellow);
 }
 
@@ -36,30 +36,37 @@ nav {
 }
 
 #hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: none;
     background-image: url(torn-paper.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-shadow: 40px -3px 35px -37px rgba(0,0,0,0.32);
     border-radius: 7px;
-    min-height: 100vh;
-    border: 2px solid blue;
+    width: 100%;
+    border: 2px solid green;
 }
 
 #hero-content {
-    padding: 20px 30px;
-    height: 100%;
-    border: 2px solid green;
+    padding: 20px 30px 40px 30px;
+    border: 2px solid blue;
+}
+
+#name {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#hero-desc {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .hero-text {
     margin: 0;
     padding: 5px;
-    text-align: center;
-}
-
-#name {
-    font-size: 2rem;
 }
 
 #portrait {
@@ -70,14 +77,14 @@ nav {
 
 #about-me-div {
     text-align: center;
+    margin-bottom: 12%;
     border: 2px solid red;
-    margin-top: 50px;
 }
 
 #about-me-button {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 10px;
-    background-color: none;
+    background-color: transparent;
     border-radius: 10px;
     border: none;
 }
