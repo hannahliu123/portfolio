@@ -18,20 +18,38 @@ body {
     background-color: var(--warm-yellow);
 }
 
+button {
+    font-family: "Outfit", sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 nav {
+    display: none;
+    position: fixed;
     margin: -15px;
-    margin-bottom: 30px;
-    padding: 15px;
+    padding: 5px 15px;
+    width: 100%;
     background-color: var(--warm-gray);
 }
 
 #hero-section {
-    box-shadow: 8px 10px 29px -20px rgba(0,0,0,1);
-    background-color: var(--light-yellow);
-    border-radius: 10px;
-    padding: 20px;
-    margin: auto;
-    width: 90%;
+    background-color: none;
+    background-image: url(torn-paper.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 40px -3px 35px -37px rgba(0,0,0,0.32);
+    border-radius: 7px;
+    min-height: 100vh;
+    border: 2px solid blue;
+}
+
+#hero-content {
+    padding: 20px 30px;
+    height: 100%;
+    border: 2px solid green;
 }
 
 .hero-text {
@@ -48,6 +66,34 @@ nav {
     width: 100%;
     border-radius: 10px;
     margin-top: 20px;
+}
+
+#about-me-div {
+    text-align: center;
+    border: 2px solid red;
+    margin-top: 50px;
+}
+
+#about-me-button {
+    font-size: 1rem;
+    padding: 10px;
+    background-color: none;
+    border-radius: 10px;
+    border: none;
+}
+
+#about-me-button:hover {    /* display down arrow with JS */
+    background-color: lightgray;
+}
+
+#about-me-button:active {
+    background-color: gray;
+}
+
+#down-arrow {
+    display: none;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
