@@ -35,20 +35,23 @@ button:hover {
     margin-top: 50px;
 }
 
-nav {
+#nav-bar {
     display: none;
     position: fixed;
-    margin: -15px;
+    margin: -20px;
     padding: 5px 15px;
     width: 100%;
     background-color: var(--warm-gray);
+}
+
+#nav-bar.active {
+    display: block;
 }
 
 #hero-section {
     position: relative;
     min-height: calc(100vh - 30px);
     width: 100%;
-    margin-bottom: 10vh;
     background-color: none;
     background-image: url(torn-paper.png);
     background-repeat: no-repeat;
@@ -126,13 +129,14 @@ nav {
 }
 
 #about-me-section {
+    padding-top: 40px;
 }
 
 .about-me-text {
 }
 
 footer {
-    margin: -15px;
+    margin: -20px;
     margin-top: 30px;
     padding: 15px;
     background-color: var(--warm-gray);
