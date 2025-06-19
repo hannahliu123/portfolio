@@ -17,6 +17,7 @@ Later:
 - Footer Contacts
 - Nav Bar
 - Link to this GitHub
+- Fix all colors
 - Dark Mode?
 - New pages for all projects & blog/life updates
 - Add some kind of statistics bar with hours spent coding this website? Maybe current book reading (BONUS)

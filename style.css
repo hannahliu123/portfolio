@@ -26,6 +26,15 @@ button:hover {
     cursor: pointer;
 }
 
+.center {
+    text-align: center;
+}
+
+.header {
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
 nav {
     display: none;
     position: fixed;
@@ -46,7 +55,6 @@ nav {
     background-size: 100% 100%;
     box-shadow: 40px -3px 35px -37px rgba(0,0,0,0.32);
     border-radius: 7px;
-    border: 2px solid blue;
 }
 
 #hero-content {
@@ -54,7 +62,6 @@ nav {
 }
 
 #name {
-    font-size: 2rem;
     margin: 0;
     padding-bottom: 2px;
 }
@@ -80,7 +87,6 @@ nav {
     width: 100%;
     padding: 0;
     height: 225px;
-    border: 2px solid red;
 }
 
 #about-me-div {
@@ -89,25 +95,23 @@ nav {
     top: calc(80vh);
     text-align: center;
     width: 100%;
-    border: 2px solid green;
 }
 
 #about-me-button {
-    font-size: 1.1rem;
-    padding: 7px;
-    background-color: #e6dac0;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    background-color: #ccbeb5;
     border-radius: 10px;
     border: none;
-    width: 40%;
     box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
 }
 
 #about-me-button:hover {    /* display down arrow with JS */
-    background-color: var(--warm-gray);
+    background-color: #bdafa6;
 }
 
 #about-me-button:active {
-    background-color: gray;
+    background-color: #9c8b7c;
 }
 
 #down-arrow {
@@ -117,12 +121,14 @@ nav {
     padding: 0;
 }
 
-.header {
-    margin-top: 30px;
+#down-arrow.active {
+    visibility: visible;
 }
 
 #about-me-section {
-    margin-top: 50px;
+}
+
+.about-me-text {
 }
 
 footer {
