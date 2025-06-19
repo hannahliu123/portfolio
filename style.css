@@ -36,32 +36,31 @@ nav {
 }
 
 #hero-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: relative;
+    min-height: calc(100vh - 30px);
+    width: 100%;
+    margin-bottom: 10vh;
     background-color: none;
     background-image: url(torn-paper.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-shadow: 40px -3px 35px -37px rgba(0,0,0,0.32);
     border-radius: 7px;
-    width: 100%;
-    border: 2px solid green;
+    border: 2px solid blue;
 }
 
 #hero-content {
-    padding: 20px 30px 40px 30px;
-    border: 2px solid blue;
+    padding: 20px 30px 200px 30px;
 }
 
 #name {
     font-size: 2rem;
-    text-align: center;
+    margin: 0;
+    padding-bottom: 2px;
 }
 
 #hero-desc {
-    text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
 }
 
 .hero-text {
@@ -75,22 +74,36 @@ nav {
     margin-top: 20px;
 }
 
-#about-me-div {
-    text-align: center;
-    margin-bottom: 12%;
+#sticky-parent {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    height: 225px;
     border: 2px solid red;
+}
+
+#about-me-div {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: calc(80vh);
+    text-align: center;
+    width: 100%;
+    border: 2px solid green;
 }
 
 #about-me-button {
     font-size: 1.1rem;
-    padding: 10px;
-    background-color: transparent;
+    padding: 7px;
+    background-color: #e6dac0;
     border-radius: 10px;
     border: none;
+    width: 40%;
+    box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
 }
 
 #about-me-button:hover {    /* display down arrow with JS */
-    background-color: lightgray;
+    background-color: var(--warm-gray);
 }
 
 #about-me-button:active {
@@ -98,8 +111,9 @@ nav {
 }
 
 #down-arrow {
-    display: none;
+    visibility: hidden;
     margin: 0;
+    margin-top: 10px;
     padding: 0;
 }
 
