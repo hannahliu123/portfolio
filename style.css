@@ -65,7 +65,7 @@ a:active {
     min-height: calc(100vh - 30px);
     width: 100%;
     background-color: none;
-    background-image: url(torn-paper.png);
+    background-image: url(photos/torn-paper.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-shadow: 40px -3px 35px -37px rgba(0,0,0,0.32);
@@ -148,11 +148,16 @@ a:active {
     display: flex;
     margin-top: 30px;
     width: 100%;
-    flex-wrap: wrap;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    scroll-snap-type: x;
+    border-radius: 10px;
+    scrollbar-color: gray var(--light-yellow);
 }
 
 #photos-scroll img {
-    height: 100px;
+    height: 200px;
+    scroll-snap-align: center;
 }
 
 footer {
