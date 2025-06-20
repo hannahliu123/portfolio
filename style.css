@@ -144,7 +144,15 @@ a:active {
     padding-top: 40px;
 }
 
-.about-me-text {
+#photos-scroll {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#photos-scroll img {
+    width: 100%;
 }
 
 footer {
