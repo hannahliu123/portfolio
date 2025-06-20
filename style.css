@@ -20,6 +20,7 @@ body {
 
 button {
     font-family: "Outfit", sans-serif;
+    color: black;
 }
 
 button:hover {
@@ -33,6 +34,17 @@ button:hover {
 .header {
     font-size: 2rem;
     margin-top: 50px;
+}
+
+.decorate {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px;
+    text-decoration-color: darksalmon;
+}
+
+a:active {
+    color: green;
 }
 
 #nav-bar {
