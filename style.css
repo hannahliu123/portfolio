@@ -146,18 +146,34 @@ a:active {
 
 #photos-scroll {
     display: flex;
-    margin-top: 30px;
-    width: 100%;
+    
+    margin: 30px -20px 0 -20px;
+    padding-right: 10px;
+    background-color: #211c18;
+    width: calc(100% + 40px);
     overflow-x: scroll;
-    flex-wrap: nowrap;
-    scroll-snap-type: x;
-    border-radius: 10px;
-    scrollbar-color: gray var(--light-yellow);
+    -ms-overflow-style: none;   /* IE and Edge */
+    scrollbar-width: none;      /* Firefox */
 }
 
-#photos-scroll img {
-    height: 200px;
+#photos::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, Opera */
+}
+
+#photos-scroll .photo {
+    background-color: #e7eaf3;
+    padding: 5px;
+    margin: 20px 0 20px 10px;
+}
+
+#photos-scroll .photo img {
+    height: 40vw;
     scroll-snap-align: center;
+}
+
+#photos-scroll .photo p {
+    text-align: center;
+    margin: 5px 0;
 }
 
 footer {
