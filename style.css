@@ -65,7 +65,7 @@ a:active {
     min-height: calc(100vh - 30px);
     width: 100%;
     background-color: none;
-    background-image: url(photos/torn-paper.png);
+    background-image: url("photos/torn-paper.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-shadow: 40px -3px 35px -37px rgba(0,0,0,0.32);
@@ -144,35 +144,64 @@ a:active {
     padding-top: 40px;
 }
 
-#photos-scroll {
-    display: flex;
+#filmstrip {
+    padding: 5px 0;
     margin: 30px -20px 0 -20px;
-    padding-right: 10px;
     background-color: #211c18;
-    width: calc(100% + 40px);
     overflow-x: scroll;
     -ms-overflow-style: none;   /* IE and Edge */
     scrollbar-width: none;      /* Firefox */
 }
 
-#photos::-webkit-scrollbar {
+#filmstrip::-webkit-scrollbar {
     display: none;  /* Chrome, Safari, Opera */
+}
+
+#flim-flex-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.repeat-boxes {
+    background-image: url("photos/box2.jpg");
+    background-size: 25px;
+    background-repeat: repeat-x;
+    margin-left: 4px;
+    height: 25px;
+}
+
+#photos-scroll {
+    display: flex;
+    column-gap: 12px;
+    padding: 0 12px 3px 12px;
+    width: max-content;
 }
 
 #photos-scroll .photo {
     background-color: #e7eaf3;
     padding: 5px;
-    margin: 20px 0 20px 10px;
+    border-radius: 2px;
+    width: min-content;
 }
 
 #photos-scroll .photo img {
     height: 40vw;
-    scroll-snap-align: center;
+    border-radius: 2px;
+    /* scroll-snap-align: center; */
+}
+
+#photos-scroll .photo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 45px;
+    padding: 0 2px
 }
 
 #photos-scroll .photo p {
-    text-align: center;
-    margin: 5px 2px;
+    margin: 0;
 }
 
 footer {
