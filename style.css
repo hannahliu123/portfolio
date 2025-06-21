@@ -164,7 +164,7 @@ a:active {
 }
 
 .repeat-boxes {
-    background-image: url("photos/box2.jpg");
+    background-image: url("photos/box.png");
     background-size: 25px;
     background-repeat: repeat-x;
     margin-left: 4px;
