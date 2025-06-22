@@ -1,6 +1,7 @@
 TO-DO LIST: (so i don't forget everything i need to do)
 
 - Add instructions somewhere so people know the panel can scroll
+- add shadows or icons or anything to make the scroll section look better. Add some details
 
 - favicon
 - Fix the color scheme (PLEASE FUTURE HANNAH DECIDE TO DO THIS BC THIS SOUNDS SOOOOO TEDIOUS AND BORING 😭)
