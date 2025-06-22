@@ -1,6 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    window.scrollTo(0, 0);
-
     // ========== Widely Used Variables ==========
     const aboutMeSection = document.getElementById("about-me-section");
     let direction = 1;
@@ -20,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // ========== Event Listeners ================
     const navBar = document.getElementById("nav-bar");
-    const aboutMeYPos = aboutMeSection.getBoundingClientRect().top;
+    const aboutMeYPos = aboutMeSection.offsetTop;
     let prevScroll = 0;
     window.addEventListener("scroll", () => {
         let currYScroll = window.scrollY;
