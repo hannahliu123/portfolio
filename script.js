@@ -40,11 +40,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // filmstrip scroll
     let direction = 1;
     const filmstripContainer = document.getElementById("filmstrip");
-    const endXScroll = filmstripContainer.scrollWidth - filmstripContainer.clientWidth;
     filmstripContainer.addEventListener("click", () => {
         filmstripContainer.classList.toggle("scroll");
         let scrollID = setInterval(() => {
-            filmstripContainer.scrollBy({left: direction*5, top: 0, behavior: "smooth"});
+            const endXScroll = filmstripContainer.scrollWidth - filmstripContainer.clientWidth;
+            filmstripContainer.scrollBy(direction*5, 0);
             currXScroll = filmstripContainer.scrollLeft;
 
             if (!filmstripContainer.classList.contains("scroll")) clearInterval(scrollID);
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
     filmstripContainer.addEventListener("scroll", () => {
         test1.textContent = direction;
         test2.textContent = currXScroll;
-        test3.textContent = endXScroll;
+        test3.textContent = filmstripContainer.scrollWidth - filmstripContainer.clientWidth;
         test4.textContent = direction === 1;
     });
 });
