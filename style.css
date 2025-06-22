@@ -6,9 +6,10 @@
     --warm-yellow: #f3d9b1;
     --light-yellow: #F5EBDC;
     --warm-gray: #D1C9BC;
-    --dark-green: #214f4b;
-    --dark-pink: #776871;
+    --warm-pink: #a89e94;
     --light-pink: #a6808c;
+    --dark-pink: #776871;
+    --dark-green: #214f4b;
 }
 
 body {
@@ -147,7 +148,7 @@ a:active {
 #filmstrip {
     padding: 5px 0;
     margin: 30px -20px 0 -20px;
-    background-color: #211c18;
+    background: linear-gradient(to right, #211C18 0%, #504e4d 20%, #211C18 100%);
     cursor: pointer;
     overflow-x: scroll;
     -ms-overflow-style: none;   /* IE and Edge */
@@ -202,6 +203,14 @@ a:active {
 
 #photos-scroll .photo p {
     margin: 0;
+}
+
+#scroll-instructions {
+    width: 100%;
+    font-size: 0.8rem;
+    margin: 5px;
+    color: #211c18;
+    text-align: center;
 }
 
 footer {
