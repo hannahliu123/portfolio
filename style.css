@@ -148,7 +148,7 @@ a:active {
 #filmstrip {
     padding: 5px 0;
     margin: 30px -20px 0 -20px;
-    background: linear-gradient(to right, #211C18 0%, #504e4d 20%, #211C18 100%);
+    background: linear-gradient(to right, #211C18 0%, #454443 20%, #211C18 100%);
     cursor: pointer;
     overflow-x: scroll;
     -ms-overflow-style: none;   /* IE and Edge */

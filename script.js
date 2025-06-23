@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const endXScroll = filmstripContainer.scrollWidth - filmstripContainer.clientWidth;
         const currXScroll = filmstripContainer.scrollLeft;
 
-        filmstripContainer.scrollLeft += direction*1;
+        filmstripContainer.scrollLeft += direction*1.5;
         if (direction === 1 && currXScroll >= endXScroll - 1) direction = -1;
         else if (direction === -1 && currXScroll <= 1) direction = 1;
 
