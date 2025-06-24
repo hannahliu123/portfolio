@@ -58,7 +58,8 @@ a:active {
 }
 
 #nav-bar.active {
-    display: block;
+    display: flex;
+    justify-content: space-between;
 }
 
 #hero-section {

@@ -17,11 +17,18 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // ========== Event Listeners ================
+    const test1 = document.getElementById("test1");
+    const test2 = document.getElementById("test2");
+    const test3 = document.getElementById("test3");
+
     const navBar = document.getElementById("nav-bar");
     const aboutMeYPos = aboutMeSection.offsetTop;
     let prevScroll = 0;
     window.addEventListener("scroll", () => {
         let currYScroll = window.scrollY;
+
+        test1.textContent = aboutMeYPos;
+        test2.textContent = currYScroll;
 
         if (currYScroll+1 >= aboutMeYPos) {
             navBar.classList.add("active");
