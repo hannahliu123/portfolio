@@ -2,14 +2,16 @@ document.addEventListener("DOMContentLoaded", () => {
     // ========== Widely Used Variables ==========
     const aboutMeSection = document.getElementById("about-me-section");
     const navBar = document.getElementById("nav-bar");
-    const test1 = document.getElementById("test1");
-    const test2 = document.getElementById("test2");
-    const test3 = document.getElementById("test3");
     const aboutMeBtn = document.getElementById("about-me-button");
     const filmstripContainer = document.getElementById("filmstrip");
     let aboutMeYPos = 0;
     let prevScroll = 0;
     let direction = 1;
+
+    // ========== Debugging Varibables ===========
+    const test1 = document.getElementById("test1");
+    const test2 = document.getElementById("test2");
+    const test3 = document.getElementById("test3");
 
     // ========== Functions ======================
     function animateScroll() {
@@ -24,33 +26,26 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // ========== Event Listeners ================
-
-    window.addEventListener("load", () => {
+    window.addEventListener("scroll", () => {
         aboutMeYPos = aboutMeSection.offsetTop;
-        window.addEventListener("scroll", () => {
-            let currYScroll = window.scrollY;
+        let currYScroll = window.scrollY;
 
-            test1.textContent = aboutMeYPos;
-            test2.textContent = currYScroll;
-            test3.textContent = currYScroll;
-
-            if (currYScroll+1 >= aboutMeYPos) {
-                navBar.classList.add("active");
-            } else {
-                navBar.classList.remove("active");
-                const arrow = document.getElementById("down-arrow");
-                if (currYScroll > prevScroll) {  // scrolling down
-                    arrow.classList.add("active");
-                    setTimeout(() => {
-                        arrow.classList.remove("active");
-                    }, 750);   // 750 ms
-                } else if (currYScroll < prevScroll) {   // scrolling up
+        if (currYScroll+1 >= aboutMeYPos) {
+            navBar.classList.add("active");
+        } else {
+            navBar.classList.remove("active");
+            const arrow = document.getElementById("down-arrow");
+            if (currYScroll > prevScroll) {  // scrolling down
+                arrow.classList.add("active");
+                setTimeout(() => {
                     arrow.classList.remove("active");
-                }
+                }, 750);   // 750 ms
+            } else if (currYScroll < prevScroll) {   // scrolling up
+                arrow.classList.remove("active");
             }
+        }
 
-            prevScroll = currYScroll;
-        });
+        prevScroll = currYScroll;
     });
 
     aboutMeBtn.addEventListener("click", () => {
