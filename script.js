@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         test1.textContent = aboutMeYPos;
         test2.textContent = currYScroll;
+        test3.textContent = currYScroll;
 
         if (currYScroll+1 >= aboutMeYPos) {
             navBar.classList.add("active");
