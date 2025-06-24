@@ -8,7 +8,7 @@
     --warm-gray: #D1C9BC;
     --warm-pink: #a89e94;
     --light-pink: #a6808c;
-    --dark-pink: #776871;
+    --dark-pink: #724b63;
     --dark-green: #214f4b;
 }
 
@@ -41,11 +41,21 @@ button:hover {
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-decoration-thickness: 1px;
-    text-decoration-color: darksalmon;
+    text-decoration-color: var(--light-pink);
+}
+
+a:link, a:visited {
+    color: var(--dark-pink);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--light-pink);
+    text-decoration: underline;
 }
 
 a:active {
-    color: green;
+    color: var(--dark-pink);
 }
 
 #nav-bar {
