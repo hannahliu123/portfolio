@@ -1,15 +1,26 @@
 TO-DO LIST: (so i don't forget everything i need to do)
 
+- nav bar
+- footer
 - Fix the color scheme (PLEASE FUTURE HANNAH DECIDE TO DO THIS BC THIS SOUNDS SOOOOO TEDIOUS AND BORING 😭)
 
-Later:
-- Languages? Maybe... still debating
-- Featured Projects
-- Recent Life Updates
-- Footer Contacts
-- Nav Bar
+Projects/CP: Computer Science
+- Brief intro (why i like cs?)
+- Languages
+- Projects
+- CP Updates 
+- Link to CP blog posts?
+- Maybe Hackatime/Codeforces Live updates (API?)
+
+Blog/Life Updates: FIREBASE! (uh oh)
+- Fencing
+- Guzheng
+- Baking
+- Reading
+- Educational (CS? School?)
+
+EXTRA (BONUS!)
 - Link to this GitHub (icon in nav bar?)
 - Dark Mode?
-- New pages for all projects & blog/life updates
 - Add some kind of statistics bar with hours spent coding this website? Maybe current book reading (BONUS)
 - Maybe a way for me to login and edit my posts??? (BONUS)

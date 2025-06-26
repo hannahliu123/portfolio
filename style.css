@@ -224,6 +224,39 @@ a:active {
     text-align: center;
 }
 
+.project {
+    display: flex;
+    gap: 5px;
+    background-color: tan;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.project h3, 
+.project p,
+.project a {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.project .project-text {
+    width: 50%;
+    border: 2px solid blue;
+}
+
+.project .project-image {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    border: 2px solid red;
+}
+
+.project .project-image img {
+    position: absolute;
+    width: 100%;
+}
+
 footer {
     margin: -20px;
     margin-top: 30px;
