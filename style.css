@@ -225,36 +225,43 @@ a:active {
 }
 
 .project {
-    display: flex;
-    gap: 5px;
     background-color: tan;
+    padding: 15px;
     margin-bottom: 10px;
-    padding: 10px;
     border-radius: 8px;
 }
 
-.project h3, 
-.project p,
-.project a {
+.project .project-title {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.project .project-title .title,
+.project .project-title .date,
+.project .project-desc,
+.project .project-links p {
+    padding: 0;
     margin: 0;
-    padding: 5px 0;
 }
 
-.project .project-text {
-    width: 50%;
-    border: 2px solid blue;
-}
-
-.project .project-image {
-    position: relative;
-    width: 50%;
-    overflow: hidden;
-    border: 2px solid red;
-}
-
-.project .project-image img {
-    position: absolute;
+.project img {
     width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.project .project-title .date {
+    font-size: 0.7rem;
+}
+ 
+.project .project-desc {
+    margin: 10px 0;
+}
+
+.project .project-links {
+    display: flex;
+    justify-content: space-around;
 }
 
 footer {
