@@ -3,29 +3,52 @@
 }
 
 :root {
-    --warm-yellow: #f3d9b1;
-    --light-yellow: #F5EBDC;
-    --warm-gray: #D1C9BC;
-    --warm-pink: #a89e94;
-    --light-pink: #a6808c;
-    --dark-pink: #724b63;
-    --dark-green: #214f4b;
+    --bg: #ece7d9;
+    --text: #212121;
+    --dark-text: #000000;
+    --btn: #CCBEB5;
+    --btn-hover: #C4B6AE;
+    --btn-active: #BDAFA6;
+    --decorate: #B5231B;
+    --link: #913F3A;
+    --link-hover: #BA504A;
+    --nav: #36322e;
+    --nav-text: #F0F0F0;
+    --filmstrip: #54504D;
+    --filmstrip-highlight: #6b6561;
+    --photo-bg: #E7EAF3;
+    --card-bg: #F1EDE6;
+
+    --project-bg: #d9b5b0cb;
+    --project2-bg: #c38883dd;
 }
 
 body {
     font-family: "Outfit", sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
     margin: 0;
     padding: 20px;
-    background-color: var(--warm-yellow);
 }
 
 button {
     font-family: "Outfit", sans-serif;
-    color: black;
+    background-color: var(--btn);
+    color: var(--text);
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 10px 20px -10px #000000;
 }
 
 button:hover {
     cursor: pointer;
+    background-color: var(--btn-hover);
+}
+
+button:active {
+    background-color: var(--btn-active);
 }
 
 .center {
@@ -41,30 +64,33 @@ button:hover {
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-decoration-thickness: 1px;
-    text-decoration-color: var(--light-pink);
+    text-decoration-color: var(--decorate);
 }
 
 a:link, a:visited {
-    color: var(--dark-pink);
+    color: var(--link);
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--light-pink);
+    color: var(--link-hover);
     text-decoration: underline;
 }
 
 a:active {
-    color: var(--dark-pink);
+    color: var(--link);
+    text-decoration: none;
 }
 
 #nav-bar {
     display: none;
     position: fixed;
     margin: -20px;
-    padding: 5px 15px;
+    padding: 15px;
     width: 100%;
-    background-color: var(--warm-gray);
+    background-color: var(--nav);
+    color: var(--nav-text);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
 
 #nav-bar.active {
@@ -72,8 +98,12 @@ a:active {
     justify-content: space-between;
 }
 
+#nav-bar p {
+    margin: 0;
+}
+
 section {
-    scroll-margin-top: 80px;   /* accounts for nav bar's space */
+    scroll-margin-top: 75px;   /* accounts for nav bar's space */
 }
 
 #hero-section {
@@ -129,29 +159,6 @@ section {
     width: 100%;
 }
 
-#about-me-button,
-#projects-btn,
-#blog-btn {
-    font-size: 1.2rem;
-    padding: 12px 30px;
-    background-color: #ccbeb5;
-    border-radius: 10px;
-    border: none;
-    box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
-}
-
-#about-me-button {
-    background-color: #ccbeb5;
-}
-
-#about-me-button:hover {    /* display down arrow with JS */
-    background-color: #bdafa6;
-}
-
-#about-me-button:active {
-    background-color: #9c8b7c;
-}
-
 #down-arrow {
     visibility: hidden;
     margin: 0;
@@ -166,7 +173,7 @@ section {
 #filmstrip {
     padding: 5px 0;
     margin: 30px -20px 0 -20px;
-    background: linear-gradient(to right, #211C18 0%, #454443 20%, #211C18 100%);
+    background: linear-gradient(to right, var(--filmstrip) 0%, var(--filmstrip-highlight) 20%, var(--filmstrip) 100%);
     cursor: pointer;
     overflow-x: scroll;
     -ms-overflow-style: none;   /* IE and Edge */
@@ -199,7 +206,7 @@ section {
 }
 
 #photos-scroll .photo {
-    background-color: #e7eaf3;
+    background-color: var(--photo-bg);
     padding: 5px;
     border-radius: 2px;
     width: min-content;
@@ -227,19 +234,19 @@ section {
     width: 100%;
     font-size: 0.8rem;
     margin: 5px;
-    color: #211c18;
     text-align: center;
 }
 
 .project {
-    background-color: rgb(210, 188, 160);
+    background-color: var(--project-bg);
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 8px;
 }
 
 .project:nth-child(odd) {
-    background-color: rgb(192, 165, 130);
+    background-color: var(--project2-bg);
+    color: var(--dark-text);
 }
 
 .project .project-title {
@@ -279,14 +286,18 @@ section {
 #blog-btn {
     display: block;
     margin: auto;
-    background-color: rgb(192, 165, 130);  /* for now */
 }
 
 footer {
+    background-color: var(--nav);
+    color: var(--nav-text);
     margin: -20px;
     margin-top: 30px;
     padding: 15px;
-    background-color: var(--warm-gray);
+}
+
+footer p {
+    margin: 0;
 }
 
 @media screen and (min-width: 768px) {
