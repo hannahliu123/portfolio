@@ -34,6 +34,10 @@ button:hover {
     background-color: tan;
 }
 
+section {
+    scroll-margin-top: 80px;   /* accounts for nav bar's space */
+}
+
 .project {
     background-color: rgb(210, 188, 160);
     padding: 15px;

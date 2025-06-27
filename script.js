@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const navBar = document.getElementById("nav-bar");
     const aboutMeBtn = document.getElementById("about-me-button");
     const filmstripContainer = document.getElementById("filmstrip");
+    const projectsBtn = document.getElementById("projects-btn");
+    const blogBtn = document.getElementById("blog-btn");
     let aboutMeYPos = 0;
     let prevScroll = 0;
     let direction = 1;
@@ -27,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // ========== Event Listeners ================
     window.addEventListener("scroll", () => {
-        aboutMeYPos = aboutMeSection.offsetTop;
+        aboutMeYPos = aboutMeSection.offsetTop - 80;
         let currYScroll = window.scrollY;
 
         if (currYScroll+1 >= aboutMeYPos) {
@@ -56,5 +58,9 @@ document.addEventListener("DOMContentLoaded", () => {
     filmstripContainer.addEventListener("click", () => {
         filmstripContainer.classList.toggle("scroll");
         if (filmstripContainer.classList.contains("scroll")) requestAnimationFrame(animateScroll);
+    });
+
+    projectsBtn.addEventListener("click", () => {
+        window.location.assign("comp-sci.html#projects");
     });
 });
