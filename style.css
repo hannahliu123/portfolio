@@ -124,13 +124,19 @@ a:active {
     width: 100%;
 }
 
-#about-me-button {
+#about-me-button,
+#projects-btn,
+#blog-btn {
     font-size: 1.2rem;
     padding: 12px 30px;
     background-color: #ccbeb5;
     border-radius: 10px;
     border: none;
     box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+}
+
+#about-me-button {
+    background-color: #ccbeb5;
 }
 
 #about-me-button:hover {    /* display down arrow with JS */
@@ -225,10 +231,14 @@ a:active {
 }
 
 .project {
-    background-color: tan;
+    background-color: rgb(210, 188, 160);
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 8px;
+}
+
+.project:nth-child(odd) {
+    background-color: rgb(192, 165, 130);
 }
 
 .project .project-title {
@@ -247,7 +257,7 @@ a:active {
 
 .project img {
     width: 100%;
-    margin: 10px 0;
+    margin: 5px 0;
     border-radius: 5px;
 }
 
@@ -262,6 +272,13 @@ a:active {
 .project .project-links {
     display: flex;
     justify-content: space-around;
+}
+
+#projects-btn,
+#blog-btn {
+    display: block;
+    margin: auto;
+    background-color: rgb(192, 165, 130);  /* for now */
 }
 
 footer {

@@ -39,7 +39,7 @@
         <section id="about-me-section">
             <h1 class="header">About Me</h1>
             <p class="about-me-text">Welcome to my personal website!</p>
-            <p class="about-me-text">My name is Hannah, and I'm currently a <span class="decorate">sophomore</span> at Wheeler High School. I am very passionate about computer science, and I have been exploring CS through robotics (FTC Team 1002), building <a href="projects.html">personal projects</a> (like this website), and learning various algorithms by solving competitive programming problems.</p>
+            <p class="about-me-text">My name is Hannah, and I'm currently a <span class="decorate">sophomore</span> at Wheeler High School. I am very passionate about computer science, and I have been exploring CS through robotics (FTC Team 1002), building <a href="projects.html#projects">personal projects</a> (like this website), and learning various algorithms by solving competitive programming problems.</p>
             <p>In my free time, I love to <span class="decorate">fence</span> (recently renewed my A25 rating 🥳), play music on the <span class="decorate">guzheng</span>, practice and compete in <span class="decorate" title="competitive programming">CP</span> contests, and code up some fun (and hopefully useful) <span class="decorate">projects</span>.
             <p class="about-me-text">Apart from those activities, you'll also find me baking, reading (currently obsessed with the Red Rising series by Pierce Brown), spending time with my family & friends, or teasing my two <s>annoying</s> adorable cats (Callan & Carrot).</p>
             <div id="filmstrip">
@@ -222,7 +222,7 @@
         </section>
         <section id="projects-section">
             <h1 class="header">Recent Projects</h1>
-            <div class="project" id="DOM-practice">
+            <div class="project">
                 <div class="project-title">
                     <h2 class="title">Enter the DOM</h2>
                     <p class="date">May 2025</p>
@@ -234,16 +234,64 @@
                     <p><a href="https://github.com/hannahliu123/DOM-practice">Github repository</a></p>
                 </div>
             </div>
-            <button>See More</button>
+            <div class="project">
+                <div class="project-title">
+                    <h2 class="title">Personal Website</h2>
+                    <p class="date">Now (June 2025)</p>
+                </div>
+                <p class="project-desc">This exact website is the project I am currently working on. This page you are seeing right now will be the homepage, and I hope to eventually add a section for more detailed CS-related page and a personal blog page. Let's see where this takes me!</p>
+                <p>BE AWARE: This project is currently under construction!</p>
+                <img src="" alt="Personal Website Project">
+                <div class="project-links">
+                    <p><a href="https://byhannahliu.com/">Deployed Project</a></p>
+                    <p><a href="https://github.com/hannahliu123/portfolio">Github repository</a></p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-title">
+                    <h2 class="title">Title</h2>
+                    <p class="date">date</p>
+                </div>
+                <p class="project-desc">description</p>
+                <img src="" alt="project image">
+                <div class="project-links">
+                    <p><a href="">Deployed Project</a></p>
+                    <p><a href="">Github repository</a></p>
+                </div>
+            </div>
+            <button id="projects-btn">See More</button>
         </section>
         <section id="blog-section">
             <h1 class="header">Blog/Life Updates</h1>
             <p>WIP css grid? or just flexbox?</p>
-            <button>Visit My Blog</button>
+            <button id="blog-btn">Visit My Blog</button>
         </section>
         <footer>
             <p>WIP -- add contact info</p>
         </footer>
         <script src="script.js"></script>
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+                apiKey: "AIzaSyCs0tT5ACiOgNBkpmbgpt_9d92lfGexy0M",
+                authDomain: "my-blog-986f0.firebaseapp.com",
+                projectId: "my-blog-986f0",
+                storageBucket: "my-blog-986f0.firebasestorage.app",
+                messagingSenderId: "220461177065",
+                appId: "1:220461177065:web:8be8ecf1dcb07cef657878",
+                measurementId: "G-6Y79WDNFCP"
+            };
+
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+        </script>
     </body>
 </html>

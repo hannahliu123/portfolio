@@ -2,6 +2,7 @@ TO-DO LIST: (so i don't forget everything i need to do)
 
 - nav bar
 - footer
+- ipad/desktop css (noooooooo)
 - Fix the color scheme (PLEASE FUTURE HANNAH DECIDE TO DO THIS BC THIS SOUNDS SOOOOO TEDIOUS AND BORING 😭)
 
 Projects/CP: Computer Science
@@ -12,7 +13,7 @@ Projects/CP: Computer Science
 - Link to CP blog posts?
 - Maybe Hackatime/Codeforces Live updates (API?)
 
-Blog/Life Updates: FIREBASE! (uh oh)
+Blog/Life Updates: FIREBASE! (firestore database)
 - Fencing
 - Guzheng
 - Baking
