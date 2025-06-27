@@ -14,11 +14,15 @@ Projects/CP: Computer Science
 - Maybe Hackatime/Codeforces Live updates (API?)
 
 Blog/Life Updates: FIREBASE! (firestore database)
-- Fencing
-- Guzheng
-- Baking
-- Reading
-- Educational (CS? School?)
+- Figure out UI/Layout (some have longer blog posts, others don't)
+- filters? or just different sections as a whole?
+    - Fencing
+        => Summer Nationals
+    - Guzheng
+    - Baking (recipes)
+    - Reading
+        => Red Rising (Lightbringer) I HATE LYSANDER SO MUCH HE CAN DIE IN A HOLE OMG DARROW SHOULD'VE KILLED HIM WHEN HE HAD THE CHANGE ARGHHHHH
+    - Educational (CS? School? CP?)
 
 EXTRA (BONUS!)
 - Link to this GitHub (icon in nav bar?)

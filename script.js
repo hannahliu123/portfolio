@@ -63,4 +63,8 @@ document.addEventListener("DOMContentLoaded", () => {
     projectsBtn.addEventListener("click", () => {
         window.location.assign("comp-sci.html#projects");
     });
+
+    blogBtn.addEventListener("click", () => {
+        window.location.assign("blog.html");
+    });
 });
