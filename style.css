@@ -298,6 +298,7 @@ section {
 }
 
 #projects-btn,
+#milestones-btn,
 #blog-btn {
     display: block;
     margin: auto;

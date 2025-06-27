@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const aboutMeBtn = document.getElementById("about-me-button");
     const filmstripContainer = document.getElementById("filmstrip");
     const projectsBtn = document.getElementById("projects-btn");
+    const milestonesBtn = document.getElementById("milestones-btn");
     const blogBtn = document.getElementById("blog-btn");
     let aboutMeYPos = 0;
     let prevScroll = 0;
@@ -62,6 +63,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     projectsBtn.addEventListener("click", () => {
         window.location.assign("comp-sci.html#projects");
+    });
+
+    milestonesBtn.addEventListener("click", () => {
+        window.location.assign("milestones.html");
     });
 
     blogBtn.addEventListener("click", () => {
