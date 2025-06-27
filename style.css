@@ -3,24 +3,25 @@
 }
 
 :root {
-    --bg: #ece7d9;
+    --bg: #e0ddd3;
     --text: #212121;
     --dark-text: #000000;
     --btn: #CCBEB5;
     --btn-hover: #C4B6AE;
     --btn-active: #BDAFA6;
-    --decorate: #B5231B;
+    --decorate: #d26d68;
     --link: #913F3A;
-    --link-hover: #BA504A;
+    --link-hover: #cb605a;
     --nav: #36322e;
     --nav-text: #F0F0F0;
-    --filmstrip: #54504D;
+    --filmstrip: #4a4644;
     --filmstrip-highlight: #6b6561;
     --photo-bg: #E7EAF3;
     --card-bg: #F1EDE6;
-
-    --project-bg: #d9b5b0cb;
-    --project2-bg: #c38883dd;
+    --project-bg: #c38883dd;
+    --project2-bg: #d9b5b0cb;
+    --project-link: #5c2623;
+    --project-link-hover: #74322e;
 }
 
 body {
@@ -239,6 +240,7 @@ section {
 
 .project {
     background-color: var(--project-bg);
+    color: var(--dark-text);
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 8px;
@@ -246,7 +248,7 @@ section {
 
 .project:nth-child(odd) {
     background-color: var(--project2-bg);
-    color: var(--dark-text);
+    color: var(--text);
 }
 
 .project .project-title {
@@ -265,7 +267,7 @@ section {
 
 .project img {
     width: 100%;
-    margin: 5px 0;
+    margin: 5px 0 10px 0;
     border-radius: 5px;
 }
 
@@ -280,6 +282,19 @@ section {
 .project .project-links {
     display: flex;
     justify-content: space-around;
+}
+
+.project:nth-child(even) .project-links a:link,
+.project:nth-child(even) .project-links a:visited {
+    color: var(--project-link);
+}
+
+.project:nth-child(even) .project-links a:hover {
+    color: var(--project-link-hover);
+}
+
+.project:nth-child(even) .project-links a:active {
+    color: var(--project-link);
 }
 
 #projects-btn,
