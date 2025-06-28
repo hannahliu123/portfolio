@@ -15,14 +15,17 @@ Projects/CP: Computer Science
 - Competitive Programming (ratings/standings)
     - Link to Codeforces Profile
     - Link to Bronze/Silver Google Docs?
+    - Link to CP milestones
 - Maybe Hackatime/Codeforces Live updates (API?)
 
 Milestones Page
-- Fencing (link to sigma website)
+- Fencing (link to sigma website) (ratings, points standings, awards)
 - Guzheng (link to magic eastern website) (performances, volunteering, videos links)
-- Educational (CS? School? CP? USACO?)
+- Academic/School
+- Robotics
+- CP
 
-Blog: FIREBASE! (firestore database)
+Blog: only blog posts       FIREBASE! (firestore database)
 - Figure out UI/Layout (some have longer blog posts, others don't)
 - filters? or just different sections as a whole?
     - Baking (recipes)

@@ -3,7 +3,7 @@
 }
 
 :root {
-    --bg: #e0ddd3;
+    --bg: #e8e5dc;
     --text: #212121;
     --dark-text: #000000;
     --btn: #CCBEB5;
@@ -138,7 +138,7 @@ section {
     background-image: url("photos/torn-paper.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    box-shadow: 40px -3px 35px -37px rgba(0,0,0,0.32);
+    box-shadow: 30px -10px 20px -30px rgba(0,0,0,0.32), -102px -85px 30px -110px rgba(0,0,0,0.32);
     border-radius: 7px;
     margin-bottom: 80px;
 }
