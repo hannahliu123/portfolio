@@ -11,15 +11,16 @@
     --btn-active: #BDAFA6;
     --decorate: #d26d68;
     --link: #913F3A;
-    --link-hover: #cb605a;
+    --link-hover: #cb605a;    
     --nav: #36322e;
     --nav-text: #F0F0F0;
-    --filmstrip: #4a4644;
-    --filmstrip-highlight: #6b6561;
+    --nav-text-hover: #cbcbcb;
+    --filmstrip: #494543;
+    --filmstrip-highlight: #645f5b;
     --photo-bg: #E7EAF3;
     --card-bg: #F1EDE6;
-    --project-bg: #c38883dd;
-    --project2-bg: #d9b5b0cb;
+    --project-bg: #c48f8a;
+    --project2-bg: #d4b8b6;
     --project-link: #5c2623;
     --project-link-hover: #74322e;
 }
@@ -59,6 +60,7 @@ button:active {
 .header {
     font-size: 2rem;
     margin-top: 50px;
+    margin-bottom: 15px;
 }
 
 .decorate {
@@ -97,10 +99,31 @@ a:active {
 #nav-bar.active {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-#nav-bar p {
+#nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    padding: 0;
     margin: 0;
+}
+
+#nav-links a:link,
+#nav-links a:visited {
+    color: var(--nav-text);
+}
+
+#nav-links a:hover {
+    color: var(--nav-text-hover);
+    text-decoration: none;
+}
+
+#nav-links a:active {
+    color: var(--nav-text);
 }
 
 section {
