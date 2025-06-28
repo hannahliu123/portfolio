@@ -1,24 +1,25 @@
 TO-DO LIST: (so i don't forget everything i need to do)
 
-Home Page
+- ipad/desktop css (noooooooo)
+
+Home Page:
 - milestones (maybe podium design?)
-- blog
+- blog 
 - nav bar (favicon on top left?)
 - footer (contacts)
-- ipad/desktop css (noooooooo)
-- Fix the color scheme (PLEASE IT LOOKS SO BAD RN IM GONNA LJSAJKFLAJJS)
 
 Projects/CP: Computer Science
 - Brief intro (why i like cs?)
 - Languages
 - Projects
-- CP Updates 
-- Link to CP blog posts?
+- Competitive Programming (ratings/standings)
+    - Link to Codeforces Profile
+    - Link to Bronze/Silver Google Docs?
 - Maybe Hackatime/Codeforces Live updates (API?)
 
 Milestones Page
-- Fencing
-- Guzheng (performances, volunteering, videos links)
+- Fencing (link to sigma website)
+- Guzheng (link to magic eastern website) (performances, volunteering, videos links)
 - Educational (CS? School? CP? USACO?)
 
 Blog: FIREBASE! (firestore database)
@@ -28,7 +29,6 @@ Blog: FIREBASE! (firestore database)
     - Reading
         => Red Rising (Lightbringer) I HATE LYSANDER SO MUCH HE CAN DIE IN A HOLE OMG DARROW SHOULD'VE KILLED HIM WHEN HE HAD THE CHANGE ARGHHHHH
     - Personal (cats, family, vacations, etc.)
-    
 
 EXTRA (BONUS!)
 - Link to this GitHub (icon in nav bar?)
