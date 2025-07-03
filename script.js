@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // ========== Widely Used Variables ==========
     const aboutMeSection = document.getElementById("about-me-section");
     const navBar = document.getElementById("nav-bar");
+    const navMenuBtn = document.getElementById("menu-btn");
+    const navLinks = document.getElementById("nav-links");
     const aboutMeBtn = document.getElementById("about-me-button");
     const filmstripContainer = document.getElementById("filmstrip");
     const projectsBtn = document.getElementById("projects-btn");
@@ -71,5 +73,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
     blogBtn.addEventListener("click", () => {
         window.location.assign("blog.html");
+    });
+
+    navMenuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        if (navLinks.classList.contains("active")) {
+            navMenuBtn.textContent = "✕";
+        } else {
+            navMenuBtn.textContent = "☰";
+        }
+    });
+
+    navLinks.addEventListener("click", (event) => {
+        if (event.target.classList.contains("nav-link")) {
+            navLinks.classList.remove("active");
+            navMenuBtn.textContent = "☰";
+        }
     });
 });
