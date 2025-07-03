@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     aboutMeBtn.addEventListener("click", () => {
-        aboutMeSection.scrollIntoView({behavior: "smooth"});
+        aboutMeSection.scrollIntoView();
     });
 
     // filmstrip scroll
