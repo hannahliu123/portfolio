@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // ========== Event Listeners ================
     window.addEventListener("scroll", () => {
-        aboutMeYPos = aboutMeSection.offsetTop - 80;
+        aboutMeYPos = aboutMeSection.offsetTop - 90;
         let currYScroll = window.scrollY;
 
         if (currYScroll+1 >= aboutMeYPos) {

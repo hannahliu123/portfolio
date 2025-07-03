@@ -5,7 +5,13 @@ TO-DO LIST: (so i don't forget everything i need to do)
 Home Page:
 - milestones (maybe podium design?)
 - blog 
-- nav bar (favicon on top left?)
+- nav bar 
+    - combine into same html file... why did i make two files wth
+    - screen fade transition (fade the nav page in)
+    - icon transition (hamburger to x)
+    - dark mode
+    - scroll smoothly (links)
+    - edit logo (maybe a pop of color? idk at least fix the current colors for now)
 - footer (contacts)
 
 Projects/CP: Computer Science
