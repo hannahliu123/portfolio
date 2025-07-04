@@ -178,7 +178,7 @@ body.mobile-menu-open {
     display: flex;
     flex-direction: column;
     height: calc(100vh - 60px);
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 #bottom.mobile-menu-open #nav-links {
