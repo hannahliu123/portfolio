@@ -37,6 +37,10 @@ body {
     padding: 20px;
 }
 
+body.mobile-menu-open {
+    overflow: hidden;
+}
+
 button {
     font-family: "Outfit", sans-serif;
     background-color: var(--btn);
@@ -93,8 +97,9 @@ a:active {
     display: none;
     position: fixed;
     margin: -20px;
+    width: 100%;        /* scrollbar */
+    max-width: 100vw;
     padding: 10px 15px;
-    width: 100%;
     background-color: var(--nav);
     color: var(--nav-text);
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
@@ -123,13 +128,14 @@ a:active {
 
 #logo h1 {
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 0;
 }
 
 #nav-btns p {
     margin: 0;
     margin-right: 5px;
+    font-size: 1.2rem;
     color: var(--nav-text);
 }
 
@@ -142,24 +148,31 @@ a:active {
     display: none;
 }
 
-#nav-links.active {
+#nav-links.mobile-menu-open {
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
     justify-content: center;
-    gap: 30px;
-    height: calc(100vh - 60px);
+    gap: 20px;
+    height: calc(100vh - 59px - 135px);
     list-style: none;
     padding: 0;
     margin: 0 20px;
 }
 
+#footer.mobile-menu-open {
+    position: fixed;
+    bottom: 0;
+    padding: 30px 0 25px 0;
+}
+
 #nav-links li {
     margin: 0 10px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 #divider {
-    margin: 15px 0;
+    margin: 10px 0;
     width: 100%;
     border: 1px solid var(--nav-text);
 }
@@ -379,30 +392,60 @@ section {
     margin: auto;
 }
 
-footer {
+#footer {
+    position: relative;
+    bottom: -20px;
+    left: -20px;
     background-color: var(--nav);
     color: var(--nav-text);
-    margin: -20px;
-    margin-top: 40px;
-    padding: 15px;
+    margin-top: 50px;
+    width: calc(100% + 40px);
+    padding: 45px 0 35px 0;
 }
 
-footer p {
+#contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+#footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--nav-text);
+}
+
+#footer a:hover {
+    background-color: var(--nav-text-hover);
+    transform: scale(1.1);
+}
+
+#footer img {
+    width: 20px;
+    height: 20px;
+}
+
+#footer-credit {
+    width: 100%;
+    text-align: center;
+}
+
+#footer-credit p {
+    color: var(--nav-text-hover);
     margin: 0;
+    padding: 0;
 }
 
 @media screen and (min-width: 768px) {
     #hero-section {
         width: 50%;
         /* Add more photos and have name in center */
-    }
-
-    #nav-links {
-        display: flex;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        border: 2px solid red;
     }
 }
 

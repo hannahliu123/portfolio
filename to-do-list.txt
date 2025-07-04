@@ -10,6 +10,7 @@ Home Page:
     - icon transition (hamburger to x)
     - dark mode
     - edit logo (maybe a pop of color? idk at least fix the current colors for now)
+    - add footer? contacts? yk?
 - footer (contacts)
 
 Projects/CP: Computer Science

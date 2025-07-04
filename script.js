@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const navBar = document.getElementById("nav-bar");
     const navMenuBtn = document.getElementById("menu-btn");
     const navLinks = document.getElementById("nav-links");
+    const footer = document.getElementById("footer");
     const aboutMeBtn = document.getElementById("about-me-button");
     const filmstripContainer = document.getElementById("filmstrip");
     const projectsBtn = document.getElementById("projects-btn");
@@ -76,8 +77,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     navMenuBtn.addEventListener("click", () => {
-        navLinks.classList.toggle("active");
-        if (navLinks.classList.contains("active")) {
+        navLinks.classList.toggle("mobile-menu-open");
+        footer.classList.toggle("mobile-menu-open");
+        document.body.classList.toggle("mobile-menu-open");
+        if (navLinks.classList.contains("mobile-menu-open")) {
             navMenuBtn.textContent = "✕";
         } else {
             navMenuBtn.textContent = "☰";
@@ -86,7 +89,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     navLinks.addEventListener("click", (event) => {
         if (event.target.classList.contains("nav-link")) {
-            navLinks.classList.remove("active");
+            navLinks.classList.remove("mobile-menu-open");
+            footer.classList.remove("mobile-menu-open");
+            document.body.classList.remove("mobile-menu-open");
             navMenuBtn.textContent = "☰";
         }
     });
