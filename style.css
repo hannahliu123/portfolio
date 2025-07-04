@@ -12,7 +12,16 @@
     --decorate: #d26d68;
     --link: #913F3A;
     --link-hover: #cb605a;    
-    --nav: #36322e;
+    --nav: #36322e;  
+    --nav1: #36322e1a;  
+    --nav2: #36322e33;  
+    --nav3: #36322e4d;  
+    --nav4: #36322e66;  
+    --nav5: #36322e80;  
+    --nav6: #36322e99;  
+    --nav7: #36322eb3;
+    --nav8: #36322ecc;
+    --nav9: #36322ee6;
     --nav-text: #F0F0F0;
     --nav-text-hover: #cbcbcb;
     --filmstrip: #494543;
@@ -482,23 +491,23 @@ body.mobile-menu-open .footer {
 @keyframes slide {
     0% {
         height: calc(75vh - 60px);
-        background-image: linear-gradient(var(--nav), rgba(54, 50, 46, 0));
+        background-image: linear-gradient(var(--nav), transparent);
     } 
-    10% {background-image: linear-gradient(var(--nav), rgba(54, 50, 46, 0.1));}
-    20% {background-image: linear-gradient(var(--nav), rgba(54, 50, 46, 0.2));}
-    30% {background-image: linear-gradient(var(--nav), rgba(54, 50, 46, 0.3));}
-    40% {background-image: linear-gradient(var(--nav), rgba(54, 50, 46, 0.4));}
-    50% {background-image: linear-gradient(var(--nav), rgba(54, 50, 46, 0.5));}
-    60% {background-image: linear-gradient(var(--nav), rgba(54, 50, 46, 0.6));}
+    10% {background-image: linear-gradient(var(--nav), var(--nav1));}
+    20% {background-image: linear-gradient(var(--nav), var(--nav2));}
+    30% {background-image: linear-gradient(var(--nav), var(--nav3));}
+    40% {background-image: linear-gradient(var(--nav), var(--nav4));}
+    50% {background-image: linear-gradient(var(--nav), var(--nav5));}
+    60% {background-image: linear-gradient(var(--nav), var(--nav6));}
     70% {
         height: calc(100vh - 60px);
-        background-image: linear-gradient(var(--nav), rgba(54, 50, 46, 0.7));
+        background-image: linear-gradient(var(--nav), var(--nav7));
     } 
-    80% {background-image: linear-gradient(var(--nav), rgba(54, 50, 46, 0.8));}
-    90% {background-image: linear-gradient(var(--nav), rgba(54, 50, 46, 0.9));}
+    80% {background-image: linear-gradient(var(--nav), var(--nav8));}
+    90% {background-image: linear-gradient(var(--nav), var(--nav9));}
     100% {
         height: calc(100vh - 60px);
-        background-image: linear-gradient(var(--nav), rgba(54, 50, 46, 1));
+        background-image: linear-gradient(var(--nav), var(--nav));
     }
 }
 

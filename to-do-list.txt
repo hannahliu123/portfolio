@@ -6,7 +6,7 @@ Home Page:
 - milestones (maybe podium design?)
 - blog 
 - nav bar (inspo: https://sparkbox.com/)
-    - screen fade transition (fade the nav page in)
+    - screen fade transition (fade back to normal but im too lazy rn)
     - icon transition (hamburger to x)
     - dark mode
     - edit logo (maybe a pop of color? idk at least fix the current colors for now)
