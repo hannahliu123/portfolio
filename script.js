@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const aboutMeSection = document.getElementById("about-me-section");
     const navBar = document.getElementById("nav-bar");
     const navMenuBtn = document.getElementById("menu-btn");
+    const navLinks = document.getElementById("nav-links");
     const navBottom = document.getElementById("bottom");
     const aboutMeBtn = document.getElementById("about-me-button");
     const filmstripContainer = document.getElementById("filmstrip");
