@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="comp-sci.css">
+        <link rel="stylesheet" href="nav.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
@@ -11,12 +12,59 @@
     </head>
     <body>
         <nav id="nav-bar">
-            <p>WIP</p>
-            <a href="index.html">Return Home</a>
+            <div id="top">
+                <div id="logo">
+                    <img src="icons/logo.png" alt="logo" id="logo-img">
+                    <h1>Hannah Liu Portfolio</h1>
+                </div>
+                <div id="nav-btns">
+                    <p id="menu-btn">☰</p>
+                </div>
+            </div>
+            <div id="bottom">
+                <div id="nav-links">
+                    <ul>
+                        <li><a href="#overview" class="nav-link">Overview</a></li>
+                        <li><a href="#languages" class="nav-link">Languages</a></li>
+                        <li><a href="#projects" class="nav-link">All Projects</a></li>
+                        <li><a href="#cp" class="nav-link">CP</a></li>
+                    </ul>
+                    <div id="divider"></div>
+                    <ul>
+                        <li><a href="homepage.html" class="nav-link">Home</a></li>
+                        <li><a href="milestones.html" class="nav-link">Milestones</a></li>
+                        <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    </ul>
+                </div>
+                <div id="nav-footer" class="footer">
+                    <div class="contacts">
+                        <a href="https://github.com/hannahliu123">
+                            <img src="icons/github.svg" alt="GitHub">
+                        </a>
+                        <a href="https://codeforces.com/profile/hannah12345">
+                            <img src="icons/codeforces.png" alt="Codeforces">
+                        </a>
+                        <a href="mailto:hannah.liu2010@gmail.com">
+                            <img src="icons/gmail.png" alt="Email">
+                        </a>
+                        <a href="https://www.instagram.com/hannahliu413/">
+                            <img src="icons/instagram.png" alt="Instagram">
+                        </a>
+                        <a href="https://fencingtracker.com/p/100284960/Hannah-Liu">
+                            <img src="icons/fencingtracker.svg" alt="Fencing">
+                        </a>
+                    </div>
+                    <div class="footer-credit">
+                        <p>© Copyright 2025 Hannah Liu</p>
+                    </div>
+                </div>
+            </div>
         </nav>
-        <h1 class="header">Computer Science</h1>
-        <p>description</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, ducimus eaque dolorum aspernatur nostrum veniam itaque placeat voluptas repellendus, est sunt vero beatae quod soluta laudantium harum autem alias fugiat qui tenetur, amet minus in enim. Libero illum quisquam dolorum rerum officiis quibusdam voluptas quia cupiditate explicabo, id quaerat nostrum reprehenderit atque? Ea, asperiores quis culpa tempore in sint fugiat doloremque ducimus? Placeat explicabo, quae voluptatum animi unde adipisci dolor perferendis eos error tempore voluptas enim dolorum odio harum dolores facere dolorem accusantium? Ullam dolores, ea nihil sequi quia laudantium aliquid impedit et, molestiae aspernatur inventore voluptates tenetur voluptate earum fugiat. Dicta voluptates laboriosam nisi quasi architecto neque distinctio dolorem maiores harum accusamus similique perspiciatis ad laborum dignissimos at mollitia reiciendis laudantium est, voluptatibus nihil ducimus! Dolore in dolorem placeat fuga? Aperiam unde ab fugiat assumenda inventore iusto vitae saepe porro doloribus voluptate, corrupti error possimus? Temporibus, praesentium. Nisi modi similique officia recusandae tenetur magnam laborum optio architecto harum odio suscipit tempore sapiente, maiores obcaecati numquam et iste impedit commodi maxime incidunt illum. Tempore dolor dolores totam eveniet nam alias, cupiditate veniam pariatur obcaecati, quasi omnis repellat vero ea recusandae atque id esse rerum labore similique, quas perspiciatis adipisci.</p>
+        <section id="overview">
+            <h1 class="header">Computer Science (Overview)</h1>
+            <p>description</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, ducimus eaque dolorum aspernatur nostrum veniam itaque placeat voluptas repellendus, est sunt vero beatae quod soluta laudantium harum autem alias fugiat qui tenetur, amet minus in enim. Libero illum quisquam dolorum rerum officiis quibusdam voluptas quia cupiditate explicabo, id quaerat nostrum reprehenderit atque? Ea, asperiores quis culpa tempore in sint fugiat doloremque ducimus? Placeat explicabo, quae voluptatum animi unde adipisci dolor perferendis eos error tempore voluptas enim dolorum odio harum dolores facere dolorem accusantium? Ullam dolores, ea nihil sequi quia laudantium aliquid impedit et, molestiae aspernatur inventore voluptates tenetur voluptate earum fugiat. Dicta voluptates laboriosam nisi quasi architecto neque distinctio dolorem maiores harum accusamus similique perspiciatis ad laborum dignissimos at mollitia reiciendis laudantium est, voluptatibus nihil ducimus! Dolore in dolorem placeat fuga? Aperiam unde ab fugiat assumenda inventore iusto vitae saepe porro doloribus voluptate, corrupti error possimus? Temporibus, praesentium. Nisi modi similique officia recusandae tenetur magnam laborum optio architecto harum odio suscipit tempore sapiente, maiores obcaecati numquam et iste impedit commodi maxime incidunt illum. Tempore dolor dolores totam eveniet nam alias, cupiditate veniam pariatur obcaecati, quasi omnis repellat vero ea recusandae atque id esse rerum labore similique, quas perspiciatis adipisci.</p>
+        </section>
         <section id="languages">
             <h2>Familiar Languages</h2>
             <p>Python, C++, Java (a bit), HTML, CSS, Javascript</p>
@@ -60,7 +108,6 @@
                     <p><a href="">Github repository</a></p>
                 </div>
             </div>
-            <p>WIP</p>
         </section>
         <section id="cp">
             <h2>Competitive Programming</h2>
@@ -68,8 +115,28 @@
             <p><a href="https://codeforces.com/profile/hannah12345">CodeForces</a> Rating: 817</p>
             <p>Currently learning graph algorithms (and struggling...)</p>
         </section>
-        <footer>
-            <p>WIP -- add contact info</p>
+        <footer class="footer">
+            <div class="contacts">
+                <a href="https://github.com/hannahliu123">
+                    <img src="icons/github.svg" alt="GitHub">
+                </a>
+                <a href="https://codeforces.com/profile/hannah12345">
+                    <img src="icons/codeforces.png" alt="Codeforces">
+                </a>
+                <a href="mailto:hannah.liu2010@gmail.com">
+                    <img src="icons/gmail.png" alt="Email">
+                </a>
+                <a href="https://www.instagram.com/hannahliu413/">
+                    <img src="icons/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://fencingtracker.com/p/100284960/Hannah-Liu">
+                    <img src="icons/fencingtracker.svg" alt="Fencing">
+                </a>
+            </div>
+            <div class="footer-credit">
+                <p>© Copyright 2025 Hannah Liu</p>
+            </div>
         </footer>
+        <script src="nav.js"></script>
     </body>
 </html>

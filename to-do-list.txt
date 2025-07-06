@@ -1,12 +1,12 @@
 TO-DO LIST: (so i don't forget everything i need to do)
 
 - ipad/desktop css (noooooooo)
+- combine stylesheets by section (nav, comp-sci, homepage, etc.)
 
 Home Page:
 - milestones (maybe podium design?)
 - blog 
 - nav bar (inspo: https://sparkbox.com/)
-    - make it actually... work... heh!
     - screen fade transition (fade back to normal but im too lazy rn)
     - icon transition (hamburger to x)
     - dark mode

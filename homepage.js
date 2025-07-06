@@ -2,9 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // ========== Widely Used Variables ==========
     const aboutMeSection = document.getElementById("about-me-section");
     const navBar = document.getElementById("nav-bar");
-    const navMenuBtn = document.getElementById("menu-btn");
-    const navLinks = document.getElementById("nav-links");
-    const navBottom = document.getElementById("bottom");
     const aboutMeBtn = document.getElementById("about-me-button");
     const filmstripContainer = document.getElementById("filmstrip");
     const projectsBtn = document.getElementById("projects-btn");
@@ -74,23 +71,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
     blogBtn.addEventListener("click", () => {
         window.location.assign("blog.html");
-    });
-
-    navMenuBtn.addEventListener("click", () => {
-        navBottom.classList.toggle("mobile-menu-open");
-        document.body.classList.toggle("mobile-menu-open");
-        if (navBottom.classList.contains("mobile-menu-open")) {
-            navMenuBtn.textContent = "✕";
-        } else {
-            navMenuBtn.textContent = "☰";
-        }
-    });
-
-    navLinks.addEventListener("click", (event) => {
-        if (event.target.classList.contains("nav-link")) {
-            navBottom.classList.remove("mobile-menu-open");
-            document.body.classList.remove("mobile-menu-open");
-            navMenuBtn.textContent = "☰";
-        }
     });
 });
