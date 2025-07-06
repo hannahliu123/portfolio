@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #e8e5dc;
+    --text: #212121;
+    --dark-text: #000000;
+    --btn: #CCBEB5;
+    --btn-hover: #C4B6AE;
+    --btn-active: #BDAFA6;
+    --link: #913F3A;
+    --link-hover: #cb605a;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    font-family: "Outfit", sans-serif;
+    background-color: var(--btn);
+    color: var(--text);
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 10px 20px -10px #000000;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--btn-hover);
+}
+
+button:active {
+    background-color: var(--btn-active);
+}
+
+.header {
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+a:link, a:visited {
+    color: var(--link);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+}
+
+a:active {
+    color: var(--link);
+    text-decoration: none;
+}
+
+section {
+    scroll-margin-top: 80px;   /* accounts for nav bar's space */
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
