@@ -8,10 +8,7 @@ Home Page:
 - blog 
 - nav bar (inspo: https://sparkbox.com/)
     - screen fade transition (fade back to normal but im too lazy rn)
-    - icon transition (hamburger to x)
-    - dark mode
     - edit logo (maybe a pop of color? idk at least fix the current colors for now)
-- footer (contacts)
 
 Projects/CP: Computer Science
 - Brief intro (why i like cs?)
@@ -24,9 +21,11 @@ Projects/CP: Computer Science
 - Maybe Hackatime/Codeforces Live updates (API?)
 
 Milestones Page
+- figure out layout (ui)
 - Fencing (link to sigma website) (ratings, points standings, awards)
 - Guzheng (link to magic eastern website) (performances, volunteering, videos links)
 - Academic/School
+    => AP Exam Scores
 - Robotics
 - CP
 
@@ -35,10 +34,16 @@ Blog: only blog posts       FIREBASE! (firestore database)
 - filters? or just different sections as a whole?
     - Baking (recipes)
     - Reading
+        => Current book
+        => Summer reading
+        => Favorite Books
         => Red Rising (Lightbringer) I HATE LYSANDER SO MUCH HE CAN DIE IN A HOLE OMG DARROW SHOULD'VE KILLED HIM WHEN HE HAD THE CHANGE ARGHHHHH
     - Personal (cats, family, vacations, etc.)
+- UHHHH AUTHENTICATION... LATER... OR NEVER... WTH IS THIS...!
 
 EXTRA (BONUS!)
+- firebase hosting (get rid of .html in url)
+- nav bar icon transition (hamburger to x)
 - Link to this GitHub (icon in nav bar?)
 - Dark Mode?
 - Add some kind of statistics bar with hours spent coding this website? Maybe current book reading (BONUS)
