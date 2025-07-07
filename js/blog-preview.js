@@ -20,15 +20,27 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
-// Firestore
+// Firestore db
 const db = getFirestore(app);       // my connected Firestore database
 const postsRef = collection(db, "posts");
-const querySnapshot = await getDocs(postsRef);
 
-querySnapshot.forEach((doc) => {
-    const post = doc.data();
-    console.log(post.title, post.content);
-});
+const postsContainer = document.getElementById("posts-container");
+
+async function fetchPosts() {
+    try {
+        const querySnapshot = await getDocs(postsRef);
+        querySnapshot.forEach((doc) => {
+            const post = doc.data();
+            const postElement = document.createElement("div");
+            ;
+            postsContainer.appendChild(postElement);
+        });
+    } catch (error) {
+        console.error("Error fetching posts: ", error);
+    }
+}
+
+fetchPosts();
 
 // Authentication - UHHH let's do this later
 const auth = getAuth(app);
