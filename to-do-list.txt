@@ -9,6 +9,7 @@ Home Page:
 - nav bar (inspo: https://sparkbox.com/)
     - screen fade transition (fade back to normal but im too lazy rn)
     - edit logo (maybe a pop of color? idk at least fix the current colors for now)
+    - add pinterest to footer? nah it's kinda useless but maybe if i get bored
 
 Projects/CP: Computer Science
 - Brief intro (why i like cs?)

@@ -24,23 +24,40 @@ const analytics = getAnalytics(app);
 const db = getFirestore(app);       // my connected Firestore database
 const postsRef = collection(db, "posts");
 
+let postsArray = [];
 const postsContainer = document.getElementById("posts-container");
+const postsToShowCount = 4;
 
-async function fetchPosts() {
-    try {
-        const querySnapshot = await getDocs(postsRef);
-        querySnapshot.forEach((doc) => {
-            const post = doc.data();
-            const postElement = document.createElement("div");
-            ;
-            postsContainer.appendChild(postElement);
-        });
-    } catch (error) {
-        console.error("Error fetching posts: ", error);
+async function getPosts() {
+    const querySnapshot = await getDocs(postsRef);
+    querySnapshot.forEach(doc => {
+        postsArray.push(doc.data());
+    });
+
+    let postsToShow = postsArray;
+    if (!window.location.pathname.endsWith("blog.html")) {      // home page -> only show a few
+        postsToShow = postsArray.slice(0, postsToShowCount);
     }
+
+    postsToShow.forEach(post => {
+        const postDiv = document.createElement("div");
+        let previewText = post.content[0];
+        const words = previewText.split(" ");
+        previewText = words.slice(0, 50).join(" ");
+        postDiv.innerHTML = `
+            <img src="${post.coverImg}" alt="Cover Image" class="post-cover-img">
+            <div class="post-text">
+                <h2 class="post-title">${post.title}</h2>
+                <p class="post-date">${post.date}</p>
+                <p class="post-text">${previewText}...</p>
+                <a href="post.html?id=${post.id}" class="read-more-btn">Read More</a>
+            </div>
+        `;
+        postsContainer.appendChild(postDiv);
+    });
 }
 
-fetchPosts();
+getPosts();
 
 // Authentication - UHHH let's do this later
 const auth = getAuth(app);
