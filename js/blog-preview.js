@@ -41,19 +41,24 @@ async function getPosts() {
 
     postsToShow.forEach(post => {
         const postDiv = document.createElement("div");
+        postDiv.classList.add("post");
         let previewText = post.content[0];
         const words = previewText.split(" ");
-        previewText = words.slice(0, 50).join(" ");
+        previewText = words.slice(0, 25).join(" ");
         postDiv.innerHTML = `
             <img src="${post.coverImg}" alt="Cover Image" class="post-cover-img">
-            <div class="post-text">
+            <div class="post-description">
                 <h2 class="post-title">${post.title}</h2>
                 <p class="post-date">${post.date}</p>
                 <p class="post-text">${previewText}...</p>
-                <a href="post.html?id=${post.id}" class="read-more-btn">Read More</a>
+                <button class="read-more-btn">Read More</button>
             </div>
         `;
+        
         postsContainer.appendChild(postDiv);
+
+        // Event Listeners for Posts
+        
     });
 }
 

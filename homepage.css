@@ -20,6 +20,10 @@
     --project2-bg: #d4b8b6;
     --project-link: #5c2623;
     --project-link-hover: #74322e;
+    --post-bg: #f0f0ee;
+    --post-btn: #D6CDC6;
+    --post-btn-hover: #D6C8BF;
+    --post-btn-active: #CCBEB5;
 }
 
 html {
@@ -289,6 +293,58 @@ section {
 #blog-btn {
     display: block;
     margin: auto;
+}
+
+.read-more-btn {
+    background-color: var(--post-btn);
+    color: var(--text);
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 7px 5px 20px -14px #000000;
+}
+
+.read-more-btn:hover {
+    cursor: pointer;
+    color: var(--dark-text);
+    background-color: var(--post-btn-hover);
+}
+
+.read-more-btn:active {
+    color: var(--text);
+    background-color: var(--post-btn-active);
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid var(--text);
+    border-radius: 10px;
+    background-color: var(--post-bg);
+    margin-bottom: 15px;
+}
+
+.post-cover-img {
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.post-title {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.post-date {
+    margin: 0;
+    cursor: pointer;
+}
+
+.read-more-btn {
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
 
 @media screen and (min-width: 768px) {
