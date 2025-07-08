@@ -10,6 +10,19 @@ Home Page:
     - screen fade transition (fade back to normal but im too lazy rn)
     - edit logo (maybe a pop of color? idk at least fix the current colors for now)
     - add pinterest to footer? nah it's kinda useless but maybe if i get bored
+- Add some kind of statistics bar with hours spent coding this website?
+
+MAYBE LATER: Seperate About Me Page:
+- About me
+- Filmstrip sliding
+- What I'm currently up to... (whatever u want ngl)
+    => Coding (curr project)
+    => Robotics
+    => CP
+    => Guzheng
+    => Fencing
+    => Baking
+    => Reading
 
 Projects/CP: Computer Science
 - Brief intro (why i like cs?)
@@ -26,20 +39,21 @@ Milestones Page
 - Fencing (link to sigma website) (ratings, points standings, awards)
 - Guzheng (link to magic eastern website) (performances, volunteering, videos links)
 - Academic/School
-    => AP Exam Scores
+    => AP Exam Scores?
 - Robotics
 - CP
 
 Blog: only blog posts       FIREBASE! (firestore database)
-- Figure out UI/Layout (some have longer blog posts, others don't)
+- functionality to open blog posts when clicked
 - filters? or just different sections as a whole?
-    - Baking (recipes)
+- Blog Ideas:
     - Reading
-        => Current book
-        => Summer reading
-        => Favorite Books
+        => Summer reading/Favorite Books
+        => The series that got me back into reading (RED RISING 🔥)
         => Red Rising (Lightbringer) I HATE LYSANDER SO MUCH HE CAN DIE IN A HOLE OMG DARROW SHOULD'VE KILLED HIM WHEN HE HAD THE CHANGE ARGHHHHH
-    - Personal (cats, family, vacations, etc.)
+    - How to build you own website in highschool (+ benefits of having one ykyk)
+    - Academic-related/coding posts (like how to study for AP exam or something)
+    - What I learned from coding my own website from scratch in high school (firebase framework, html, css, animation, discusting color theory, js, github, debugging/troubleshooting, organization, how fun coding is :D)
 - UHHHH AUTHENTICATION... LATER... OR NEVER... WTH IS THIS...!
 
 EXTRA (BONUS!)
@@ -47,5 +61,4 @@ EXTRA (BONUS!)
 - nav bar icon transition (hamburger to x)
 - Link to this GitHub (icon in nav bar?)
 - Dark Mode?
-- Add some kind of statistics bar with hours spent coding this website? Maybe current book reading (BONUS)
-- Maybe a way for me to login and edit my posts??? (BONUS)
+- Maybe a way for me to login and edit my posts??? (ugh firebase auth)
