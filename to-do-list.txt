@@ -41,7 +41,7 @@ Projects/CP: Computer Science
 - Maybe Hackatime/Codeforces Live updates (API?)
 
 Milestones Page 
-- ❗️have a way of highlighting more notable achievements?
+- have a way of highlighting more notable achievements?
 - Fencing (link to sigma website) (ratings, points standings, awards)
 - Guzheng (link to magic eastern website) (performances, volunteering, videos links)
 - Academic/School
