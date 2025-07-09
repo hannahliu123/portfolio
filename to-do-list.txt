@@ -41,9 +41,7 @@ Projects/CP: Computer Science
 - Maybe Hackatime/Codeforces Live updates (API?)
 
 Milestones Page 
-- ❗️have a way of intuitivlely showing the user they can click to expand/compress
-- ❗️Use firebase for milestones
-- ❗️have a way of highlighting more notable achievements or having them in the front until you expand
+- ❗️have a way of highlighting more notable achievements?
 - Fencing (link to sigma website) (ratings, points standings, awards)
 - Guzheng (link to magic eastern website) (performances, volunteering, videos links)
 - Academic/School
