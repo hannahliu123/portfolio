@@ -1,6 +1,7 @@
 const navMenuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const navBottom = document.getElementById("bottom");
+const logo = document.getElementById("logo");
 
 navMenuBtn.addEventListener("click", () => {
     navBottom.classList.toggle("mobile-menu-open");
@@ -18,4 +19,8 @@ navLinks.addEventListener("click", (event) => {
         document.body.classList.remove("mobile-menu-open");
         navMenuBtn.textContent = "☰";
     }
+});
+
+logo.addEventListener("click", () => {
+    window.location.assign("index.html");
 });

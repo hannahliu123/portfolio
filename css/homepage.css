@@ -103,7 +103,7 @@ section {
     min-height: calc(100vh - 30px);
     width: 100%;
     background-color: none;
-    background-image: url("photos/torn-paper.png");
+    background-image: url("../photos/torn-paper.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-shadow: 30px -10px 20px -30px rgba(0,0,0,0.32), -102px -85px 30px -110px rgba(0,0,0,0.32);
@@ -183,7 +183,7 @@ section {
 }
 
 .repeat-boxes {
-    background-image: url("photos/box.png");
+    background-image: url("../photos/box.png");
     background-size: 30px;
     background-repeat: repeat-x;
     margin-left: 2px;
