@@ -38,6 +38,7 @@ Projects/CP: Computer Science
 - Projects
 - Competitive Programming (ratings/standings)
     - Link to Codeforces Profile
+    - Link to AtCoder Profile
     - Link to Bronze/Silver Google Docs?
     - Link to CP milestones
 - Maybe Hackatime/Codeforces Live updates (API?)
