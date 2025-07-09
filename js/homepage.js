@@ -70,6 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     blogBtn.addEventListener("click", () => {
-        window.location.assign("blog.html");
+        window.location.href = "https://blog.byhannahliu.com/";
     });
 });

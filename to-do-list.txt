@@ -28,25 +28,12 @@ Projects/CP: Computer Science❗
     - Link to AtCoder Profile
     - Link to Bronze/Silver Google Docs?
     - Link to CP milestones
-- Maybe Hackatime/Codeforces Live updates (API?)
+- Maybe Hackatime/Codeforces/GitHub Live updates (API?)
 
 Milestones Page (keep updating)
 - have a way of highlighting more notable achievements?
 
-Blog: only blog posts       FIREBASE! (firestore database)
-- Set up subdomain for blogs❗
-- Add multiple toggle pages in blog.html once i have too many blogs
-- fix colors and css layout
-- filters? or just different sections as a whole? related posts? tags?
-- update title of html file using firebase & js
-- Blog Ideas: (actually write the blog posts themselves...)
-    - Reading
-        => Summer reading/Favorite Books
-        => The series that got me back into reading (RED RISING 🔥)
-        => Red Rising (Lightbringer) I HATE LYSANDER SO MUCH HE CAN DIE IN A HOLE OMG DARROW SHOULD'VE KILLED HIM WHEN HE HAD THE CHANCE ARGHHHHH
-    - How to build you own website in highschool (+ benefits of having one ykyk, mention how long mine has taken me hehe)
-    - Academic-related/coding posts (like how to study for AP exam or something)
-    - What I learned from coding my own website from scratch in high school (firebase framework, html, css, animation, discusting color theory, js, github, debugging/troubleshooting, organization, how fun coding is :D)
+Keep blog repo up to date with edits made here
 
 EXTRA (later)
 - firebase hosting (get rid of .html in url) instead of gh pages

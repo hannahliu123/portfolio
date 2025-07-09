@@ -26,7 +26,7 @@ const postsRef = collection(db, "posts");
 
 let postsArray = [];
 const postsContainer = document.getElementById("posts-container");
-const postsToShowCount = 2;
+const postsToShowCount = 2;     // number of posts to show in the blog preivew on my homepage
 
 async function getPosts() {
     const querySnapshot = await getDocs(postsRef);
@@ -34,12 +34,9 @@ async function getPosts() {
         postsArray.push(doc.data());
     });
 
-    let postsToShow = postsArray;
-    if (!window.location.pathname.endsWith("blog.html")) {      // home page -> only show a few
-        postsToShow = postsArray.slice(0, postsToShowCount);
-    }
+    postsArray = postsArray.slice(0, postsToShowCount);
 
-    postsToShow.forEach(post => {
+    postsArray.forEach(post => {
         const postDiv = document.createElement("div");
         postDiv.classList.add("post");
         let previewText = post.content[0];
