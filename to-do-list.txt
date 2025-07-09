@@ -9,12 +9,15 @@ Soon:
 - Comp Sci Page
 - Authentication
 
+Nav Bar: (inspo: https://sparkbox.com/)
+- ❗️Click on logo or name to return to th homepage
+- screen fade transition (fade back to normal but im too lazy rn)
+- edit logo (maybe a pop of color? idk at least fix the current colors for now)
+- add pinterest to footer? nah it's kinda useless but maybe if i get bored
+
 Home Page:
-- milestones (maybe podium design?)
-- nav bar (inspo: https://sparkbox.com/)
-    - screen fade transition (fade back to normal but im too lazy rn)
-    - edit logo (maybe a pop of color? idk at least fix the current colors for now)
-    - add pinterest to footer? nah it's kinda useless but maybe if i get bored
+- ❗️fix projects click on image to also open deployed project
+- ❗️milestones (fix description "those")
 - Add some kind of statistics bar with hours spent coding this website?
 
 MAYBE LATER: Seperate About Me Page:
@@ -39,9 +42,9 @@ Projects/CP: Computer Science
     - Link to CP milestones
 - Maybe Hackatime/Codeforces Live updates (API?)
 
-Milestones Page
-- click to expand/compress
-- have a way of highlighting more notable achievements or having them in the front until you expand
+Milestones Page 
+- ❗️click to expand/compress
+- ❗️have a way of highlighting more notable achievements or having them in the front until you expand
 - Fencing (link to sigma website) (ratings, points standings, awards)
 - Guzheng (link to magic eastern website) (performances, volunteering, videos links)
 - Academic/School
