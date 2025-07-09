@@ -103,33 +103,24 @@ a:active {
 
 .content {
     display: flex;
-    gap: 5px;
-    border: 2px solid red;
-}
-
-.content .text {
-    display: flex;
     flex-direction: column;
     gap: 10px;
-    flex-basis: 70%;
-    flex-grow: 1;
-    border: 2px solid blue;
+    margin: 5px;
+    margin-top: 10px;
+    max-height: 200px;
+    overflow: hidden;
 }
 
-.content .images {
-    display: flex;
-    flex-direction: column;
-    /* overflow/wrap? */
-    flex-basis: 30%;
-    flex-grow: 1;
-    border: 2px solid green;
+.content.expand {
+    max-height: none;
 }
 
-.content .text .date {
+.content .date {
     font-size: 0.8rem;
+    font-weight: 300;
 }
 
-.content .text p {
+.content p {
     margin: 0;
 }
 
