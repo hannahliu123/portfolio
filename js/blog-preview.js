@@ -46,19 +46,24 @@ async function getPosts() {
         const words = previewText.split(" ");
         previewText = words.slice(0, 25).join(" ");
         postDiv.innerHTML = `
-            <img src="${post.coverImg}" alt="Cover Image" class="post-cover-img">
+            <img src="${post.coverImg}" alt="Cover Image" class="post-cover-img click">
             <div class="post-description">
-                <h2 class="post-title">${post.title}</h2>
-                <p class="post-date">${post.date}</p>
+                <h2 class="post-title click">${post.title}</h2>
+                <p class="post-date click">${post.date}</p>
                 <p class="post-text">${previewText}...</p>
-                <button class="read-more-btn">Read More</button>
+                <button class="read-more-btn click">Read More</button>
             </div>
         `;
         
         postsContainer.appendChild(postDiv);
 
         // Event Listeners for Posts
-        ;
+        const clickable = postDiv.querySelectorAll(".click");
+        clickable.forEach(item => {
+            item.addEventListener("click", () => {
+                window.location.href = "post.html?id=" + post.id;
+            });
+        });
     });
 }
 

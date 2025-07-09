@@ -347,6 +347,10 @@ section {
     border-radius: 5px;
 }
 
+.click {
+    cursor: pointer;
+}
+
 @media screen and (min-width: 768px) {
     #hero-section {
         width: 50%;
