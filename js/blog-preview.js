@@ -58,7 +58,7 @@ async function getPosts() {
         postsContainer.appendChild(postDiv);
 
         // Event Listeners for Posts
-        
+        ;
     });
 }
 

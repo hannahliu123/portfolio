@@ -45,6 +45,7 @@ Milestones Page
 
 Blog: only blog posts       FIREBASE! (firestore database)
 - functionality to open blog posts when clicked
+- fix colors and css layout
 - filters? or just different sections as a whole?
 - Blog Ideas:
     - Reading
@@ -55,6 +56,8 @@ Blog: only blog posts       FIREBASE! (firestore database)
     - Academic-related/coding posts (like how to study for AP exam or something)
     - What I learned from coding my own website from scratch in high school (firebase framework, html, css, animation, discusting color theory, js, github, debugging/troubleshooting, organization, how fun coding is :D)
 - UHHHH AUTHENTICATION... LATER... OR NEVER... WTH IS THIS...!
+- related posts? tags?
+- update title of html file using firebase & js
 
 EXTRA (BONUS!)
 - firebase hosting (get rid of .html in url)
