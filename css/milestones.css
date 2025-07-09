@@ -3,11 +3,15 @@
 }
 
 :root {
-    --bg: #e8e5dc;
-    --section-bg: #f0f0ee;
-    --section-bg-hover: #e5e5e3;
-    --section-bg-active: #deded8;
+    --bg: #E8E5DC;
+    --section-bg: #C8CCE0;
+    --section-bg-hover: #C2C5D6;
+    --section-bg-active: #B9BDD0;
     --text: #212121;
+    --section2-bg: #99A2CE;
+    --section2-bg-hover: #939CC7;
+    --section2-bg-active: #8D95BF;
+    --text2: #000000;
     --dark-text: #000000;
     --btn: #CCBEB5;
     --btn-hover: #C4B6AE;
@@ -75,8 +79,8 @@ a:active {
 }
 
 #cards {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 100%;
     gap: 25px;
 }
 
@@ -86,6 +90,8 @@ a:active {
     border-radius: 10px;
     box-shadow: 0px 0px 20px -10px #000000;
     padding: 10px;
+    cursor: pointer;
+    height: max-content;
 }
 
 #cards > div:hover {
@@ -95,6 +101,20 @@ a:active {
 
 #cards > div:active {
     background-color: var(--section-bg-active);
+}
+
+#cards > div:nth-child(even) {
+    background-color: var(--section2-bg);
+    color: var(--text2);
+}
+
+#cards > div:nth-child(even):hover {
+    background-color: var(--section2-bg-hover);
+    transform: scale(1.015);
+}
+
+#cards > div:nth-child(even):active {
+    background-color: var(--section2-bg-active);
 }
 
 #cards > div > h2 {
@@ -125,6 +145,9 @@ a:active {
 }
 
 @media screen and (min-width: 768px) {
+    #cards {
+        grid-template-columns: 50% 50%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
