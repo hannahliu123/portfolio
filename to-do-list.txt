@@ -1,11 +1,16 @@
 TO-DO LIST: (so i don't forget everything i need to do)
 
+Soon:
 - ipad/desktop css (noooooooo)
-- combine stylesheets by section (nav, comp-sci, homepage, etc.)
+- make about me separate
+- homepage milestones
+- blog post css
+- Milestones Page
+- Comp Sci Page
+- Authentication
 
 Home Page:
 - milestones (maybe podium design?)
-- blog 
 - nav bar (inspo: https://sparkbox.com/)
     - screen fade transition (fade back to normal but im too lazy rn)
     - edit logo (maybe a pop of color? idk at least fix the current colors for now)
@@ -35,18 +40,19 @@ Projects/CP: Computer Science
 - Maybe Hackatime/Codeforces Live updates (API?)
 
 Milestones Page
-- figure out layout (ui)
+- click to expand/compress
+- have a way of highlighting more notable achievements or having them in the front until you expand
 - Fencing (link to sigma website) (ratings, points standings, awards)
 - Guzheng (link to magic eastern website) (performances, volunteering, videos links)
 - Academic/School
     => AP Exam Scores?
-- Robotics
-- CP
 
 Blog: only blog posts       FIREBASE! (firestore database)
-- functionality to open blog posts when clicked
+- Add multiple toggle pages in blog.html once i have too many blogs
 - fix colors and css layout
 - filters? or just different sections as a whole?
+- related posts? tags?
+- update title of html file using firebase & js
 - Blog Ideas:
     - Reading
         => Summer reading/Favorite Books
@@ -56,8 +62,7 @@ Blog: only blog posts       FIREBASE! (firestore database)
     - Academic-related/coding posts (like how to study for AP exam or something)
     - What I learned from coding my own website from scratch in high school (firebase framework, html, css, animation, discusting color theory, js, github, debugging/troubleshooting, organization, how fun coding is :D)
 - UHHHH AUTHENTICATION... LATER... OR NEVER... WTH IS THIS...!
-- related posts? tags?
-- update title of html file using firebase & js
+- Build personal CMS (content management system)
 
 EXTRA (BONUS!)
 - firebase hosting (get rid of .html in url)

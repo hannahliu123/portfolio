@@ -4,6 +4,7 @@
 
 :root {
     --bg: #e8e5dc;
+    --section-bg: #f0f0ee;
     --text: #212121;
     --dark-text: #000000;
     --btn: #CCBEB5;
@@ -66,8 +67,45 @@ a:active {
     text-decoration: none;
 }
 
-section {
-    scroll-margin-top: 80px;   /* accounts for nav bar's space */
+#cards > div {
+    scroll-margin-top: 75px;   /* accounts for nav bar's space */
+    background-color: var(--section-bg);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+#cards > div > h2 {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    gap: 5px;
+    border: 2px solid red;
+}
+
+.content .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-basis: 50%;
+    flex-grow: 1;
+    border: 2px solid blue;
+}
+
+.content .text .date {
+    font-size: 0.8rem;
+}
+
+.content .images {
+    flex-basis: 50%;
+    flex-grow: 1;
+    border: 2px solid green;
+}
+
+.content .text p {
+    margin: 0;
 }
 
 @media screen and (min-width: 768px) {

@@ -26,7 +26,7 @@ const postsRef = collection(db, "posts");
 
 let postsArray = [];
 const postsContainer = document.getElementById("posts-container");
-const postsToShowCount = 4;
+const postsToShowCount = 2;
 
 async function getPosts() {
     const querySnapshot = await getDocs(postsRef);
