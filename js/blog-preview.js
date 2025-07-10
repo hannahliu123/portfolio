@@ -58,7 +58,7 @@ async function getPosts() {
         const clickable = postDiv.querySelectorAll(".click");
         clickable.forEach(item => {
             item.addEventListener("click", () => {
-                window.location.href = "post.html?id=" + post.id;
+                window.location.href = "https://blog.byhannahliu.com/post.html?id=" + post.id;
             });
         });
     });
