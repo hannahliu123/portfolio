@@ -153,6 +153,11 @@ h2 a {
     background: linear-gradient(transparent, var(--section-bg));
 }
 
+.fade p:hover {
+    padding-bottom: 3px;
+    transform: scale(1.25);
+}
+
 #cards > div:hover .fade {
     background: linear-gradient(transparent, var(--section-bg-hover));
 }
