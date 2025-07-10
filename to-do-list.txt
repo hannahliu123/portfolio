@@ -1,6 +1,7 @@
 TO-DO LIST: (so i don't forget everything i need to do)
 
 - ipad/desktop css (noooooooo)
+- make the bg color lighter (prob make her thing darker)
 
 Nav Bar: (inspo: https://sparkbox.com/)
 - screen fade transition (fade back to normal but im too lazy rn)
