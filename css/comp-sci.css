@@ -51,8 +51,8 @@ button:active {
 
 .header {
     font-size: 2rem;
-    margin-top: 50px;
-    margin-bottom: 15px;
+    margin-top: 60px;
+    margin-bottom: 0;
 }
 
 a:link, a:visited {
@@ -72,6 +72,11 @@ a:active {
 
 section {
     scroll-margin-top: 80px;   /* accounts for nav bar's space */
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin: 10px 0;
 }
 
 .project {

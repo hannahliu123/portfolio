@@ -1,17 +1,14 @@
-TO-DO LIST: (so i don't forget everything i need to do)
+TO-DO LIST:
 
+OVERALL:
 - ipad/desktop css (noooooooo)
-- make the bg color lighter (prob make her thing darker)
+- ❗make the bg color lighter (prob make hero bg thing darker) & make sure blog is also updated
+- ❗add "update" in firebase to include text that is commonly updated
 
-Nav Bar: (inspo: https://sparkbox.com/)
-- screen fade transition (fade back to normal but im too lazy rn)
-- edit logo (maybe a pop of color? idk at least fix the current colors for now)
-- add pinterest to footer? nah it's kinda useless but maybe if i get bored
-
-MAYBE LATER: Seperate About Me Page:❗
-- About me
+❗ABOUT ME:
+- About me (update)
 - Filmstrip sliding
-- What I'm currently up to... (whatever u want ngl)
+- What I'm currently up to... (whatever u want ngl) firebase "update"
     => Coding (curr project)
     => Robotics
     => CP
@@ -20,25 +17,25 @@ MAYBE LATER: Seperate About Me Page:❗
     => Baking
     => Reading
 
-Projects/CP: Computer Science❗
+❗COMPUTER SCIENCE: 
+- update projects & decriptions
 - Brief intro (why i like cs?)
 - Languages
 - Projects
-- Competitive Programming (ratings/standings)
-    - Link to Codeforces Profile
-    - Link to AtCoder Profile
+- Competitive Programming 
     - Link to Bronze/Silver Google Docs?
     - Link to CP milestones
 - Maybe Hackatime/Codeforces/GitHub Live updates (API?)
 
-Milestones Page (keep updating)
-- have a way of highlighting more notable achievements?
-
-Keep blog repo up to date with edits made here
+MILESTONES: keep updating
 
 EXTRA (later)
+- have a way of highlighting more notable achievements in milestones page?
 - firebase hosting (get rid of .html in url) instead of gh pages
+- screen fade transition (fade back to normal but im too lazy rn)
 - nav bar icon transition (hamburger to x)
 - Dark Mode (icon in nav bar)
+- edit logo (maybe a pop of color? idk at least fix the current colors for now)
+- add pinterest to footer? nah it's kinda useless but maybe if i get bored
 - Authentication
 - Build personal CMS (content management system)
