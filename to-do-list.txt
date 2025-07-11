@@ -1,10 +1,10 @@
 TO-DO LIST:
 
 OVERALL:
-- ipad/desktop css (noooooooo)
+- ❗ipad/desktop css (noooooooo)
 - ❗add "update" in firebase to include text that is commonly updated
 
-❗ABOUT ME:
+❗ABOUT ME: get rid of about me stuff in homepage and index
 - About me (update)
 - Filmstrip sliding
 - What I'm currently up to... (whatever u want ngl) firebase "update"

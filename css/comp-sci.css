@@ -79,6 +79,15 @@ h2 {
     margin: 10px 0;
 }
 
+#stats-title {
+    margin-bottom: 10px;
+}
+
+.stats {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
 .project {
     background-color: var(--project-bg);
     color: var(--dark-text);
