@@ -2,7 +2,6 @@ TO-DO LIST:
 
 OVERALL:
 - ipad/desktop css (noooooooo)
-- ❗make the bg color lighter (prob make hero bg thing darker) & make sure blog is also updated
 - ❗add "update" in firebase to include text that is commonly updated
 
 ❗ABOUT ME:
@@ -18,7 +17,6 @@ OVERALL:
     => Reading
 
 ❗COMPUTER SCIENCE: 
-- update projects & decriptions
 - Brief intro (why i like cs?)
 - Languages
 - Projects
