@@ -31,6 +31,7 @@ EXTRA (later)
 - have a way of highlighting more notable achievements in milestones page?
 - firebase hosting (get rid of .html in url) instead of gh pages
 - screen fade transition (fade back to normal but im too lazy rn)
+- nav bar make it look better on short screens (a way of seeing that you can scroll - maybe fade top/bottom?)
 - nav bar icon transition (hamburger to x)
 - Dark Mode (icon in nav bar)
 - edit logo (maybe a pop of color? idk at least fix the current colors for now)
