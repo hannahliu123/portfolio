@@ -2,26 +2,19 @@ TO-DO LIST:
 
 OVERALL:
 - ❗ipad/desktop css (noooooooo)
-- ❗add firebase updates to display milestones
 
-❗ABOUT ME:
-- What I'm currently up to... (whatever u want ngl) firebase "update"
-    => Robotics
-    => Guzheng
-    => Fencing
-    => Baking
-    => Reading
+❗ABOUT ME: What I'm currently up to & caret styles
 
 ❗COMPUTER SCIENCE: 
 - Brief intro (why i like cs?)
 - Languages
-- Projects
 - Link to Bronze/Silver Google Docs or CP milestones?
-- Maybe Hackatime/Codeforces/GitHub Live updates (API?)
+- Hackatime/Codeforces/GitHub Live updates (API?)
 
 MILESTONES: keep updating
 
 EXTRA (later)
+- clean up and fix those stupid milestone document fields in firebase (WHO CAME UP WITH THE UI OOOOOOHHHH MY GOSH THEY'RE GOING DOWN)
 - more firebase features (figure out analytics? hosting?)
 - animate about me carets (what im up to)
 - have a way of highlighting more notable achievements in milestones page?
@@ -34,3 +27,4 @@ EXTRA (later)
 - add pinterest to footer? nah it's kinda useless but maybe if i get bored
 - Authentication
 - Build personal CMS (content management system)
+Commenting (blog)
