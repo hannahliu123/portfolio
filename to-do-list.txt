@@ -2,7 +2,7 @@ TO-DO LIST:
 
 OVERALL:
 - ❗ipad/desktop css (noooooooo)
-- ❗add "update" in firebase to include text that is commonly updated
+- ❗add firebase updates to display milestones
 
 ❗ABOUT ME:
 - What I'm currently up to... (whatever u want ngl) firebase "update"
@@ -16,9 +16,7 @@ OVERALL:
 - Brief intro (why i like cs?)
 - Languages
 - Projects
-- Competitive Programming 
-    - Link to Bronze/Silver Google Docs?
-    - Link to CP milestones
+- Link to Bronze/Silver Google Docs or CP milestones?
 - Maybe Hackatime/Codeforces/GitHub Live updates (API?)
 
 MILESTONES: keep updating

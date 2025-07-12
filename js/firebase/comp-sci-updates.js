@@ -20,34 +20,28 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);       // my connected Firestore database
 
 async function loadUpdates() {
-    const aboutMeDocRef = doc(db, "updates", "about-me-updates");    // reference to desired document
-    const aboutMeDocSnapshop = await getDoc(aboutMeDocRef);   // snapshot of current data
+    const cpDocRef = doc(db, "updates", "competitive-programming-updates");    // reference to desired document
+    const cpDocSnapshop = await getDoc(cpDocRef);   // snapshot of current data
 
-    if (!aboutMeDocSnapshop.exists()) {
+    if (!cpDocSnapshop.exists()) {
         console.log("No document found.");
         return;
     }
 
-    const aboutMeUpdates = aboutMeDocSnapshop.data();
-    showAboutMeUpdates(aboutMeUpdates);
+    const cpUpdates = cpDocSnapshop.data();
+    showCpUpdates(cpUpdates);
 }
 
-async function showAboutMeUpdates(aboutMeUpdates) {
-    const projects = document.getElementById("recent-projects");
-    const cp = document.getElementById("recent-cp");
-    const robotics = document.getElementById("recent-robotics");
-    const fencing = document.getElementById("recent-fencing");
-    const guzheng = document.getElementById("recent-guzheng");
-    const reading = document.getElementById("recent-reading");
-    const baking = document.getElementById("recent-baking");
+async function showCpUpdates(cpUpdates) {
+    const currUpdates = document.getElementById("curr-updates");
+    const usaco = document.getElementById("curr-USACO");
+    const codeforces = document.getElementById("curr-codeforces");
+    const atcoder = document.getElementById("curr-atcoder");
 
-    projects.textContent = aboutMeUpdates.projects;
-    cp.textContent = aboutMeUpdates.cp;
-    robotics.textContent = aboutMeUpdates.robotics;
-    fencing.textContent = aboutMeUpdates.fencing;
-    guzheng.textContent = aboutMeUpdates.guzheng;
-    reading.textContent = aboutMeUpdates.reading;
-    baking.textContent = aboutMeUpdates.baking;
+    currUpdates.innerHTML = cpUpdates.progress;
+    usaco.innerHTML = cpUpdates.usaco;
+    codeforces.innerHTML = cpUpdates.codeforces[0];
+    atcoder.innerHTML = cpUpdates.atcoder[0];
 }
 
 loadUpdates();
