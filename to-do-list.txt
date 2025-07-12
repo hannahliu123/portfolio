@@ -4,13 +4,9 @@ OVERALL:
 - ❗ipad/desktop css (noooooooo)
 - ❗add "update" in firebase to include text that is commonly updated
 
-❗ABOUT ME: get rid of about me stuff in homepage and index
-- About me (update)
-- Filmstrip sliding
+❗ABOUT ME:
 - What I'm currently up to... (whatever u want ngl) firebase "update"
-    => Coding (curr project)
     => Robotics
-    => CP
     => Guzheng
     => Fencing
     => Baking
@@ -28,6 +24,8 @@ OVERALL:
 MILESTONES: keep updating
 
 EXTRA (later)
+- more firebase features (figure out analytics? hosting?)
+- animate about me carets (what im up to)
 - have a way of highlighting more notable achievements in milestones page?
 - firebase hosting (get rid of .html in url) instead of gh pages
 - screen fade transition (fade back to normal but im too lazy rn)

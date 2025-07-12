@@ -161,6 +161,18 @@ section {
     text-align: center;
 }
 
+.updates-click {
+    cursor: pointer;
+}
+
+.recent-updates {
+    display: none;
+}
+
+.recent-updates.active {
+    display: block;
+}
+
 @media screen and (min-width: 768px) {
 }
 
