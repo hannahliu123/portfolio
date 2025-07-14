@@ -5,12 +5,12 @@ OVERALL:
 
 ABOUT ME: keep updating
 
-❗COMPUTER SCIENCE:
-- Hackatime/Codeforces/GitHub Live updates (API?)
+COMPUTER SCIENCE: done~
 
 MILESTONES: keep updating
 
 EXTRA (later)
+- Hackatime/Codeforces/GitHub Live updates (https://cal-heatmap.com/)
 - clean up and fix those stupid milestone document fields in firebase (WHO CAME UP WITH THE UI OOOOOOHHHH MY GOSH THEY'RE GOING DOWN)
 - more firebase features (figure out analytics? hosting?)
 - animate about me carets (what im up to)
@@ -24,4 +24,4 @@ EXTRA (later)
 - add pinterest to footer? nah it's kinda useless but maybe if i get bored
 - Authentication
 - Build personal CMS (content management system)
-Commenting (blog)
+- Commenting (blog)
