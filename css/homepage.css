@@ -36,6 +36,7 @@ body {
     color: var(--text);
     margin: 0;
     padding: 20px;
+    font-size: 1rem;
 }
 
 button {
@@ -115,7 +116,7 @@ section {
     padding: 35px 60px 215px 45px;
 }
 
-#name {
+.name {
     margin: 0;
     padding-bottom: 2px;
 }
@@ -133,6 +134,10 @@ section {
     width: 100%;
     border-radius: 10px;
     margin-top: 20px;
+}
+
+#more-images {
+    display: none;
 }
 
 #sticky-parent {
@@ -275,11 +280,106 @@ section {
 }
 
 @media screen and (min-width: 768px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 2.2rem;
+        padding: 20px 40px;
+    }
+
+    .header {
+        font-size: 3rem;
+        /* margin-top: 50px;
+        margin-bottom: 15px; */
+    }
+
     #hero-section {
-        width: 50%;
-        /* Add more photos and have name in center */
+        width: calc(100% + 20px);
+        margin: -20px 0 125px 0;
+        padding: 35px 7% 150px 4%;
+    }
+
+    #hero-content {
+        margin: 0;
+        padding: 40px 50px 250px 50px;
+    }
+
+    .name {
+        margin: 0 0 2px 0;
+    }
+
+    #hero-desc {
+        margin: 7px 0 23px 0;
+    }
+
+    .hero-text {
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+
+    #portrait {
+        margin-top: 35px;
+    }
+
+    #sticky-parent {
+        height: 450px;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) and (orientation: landscape) {
+    #hero-section {
+        position: relative;
+        min-height: auto;
+        width: calc(100% + 30px);
+        margin: -20px -20px 0 -10px;
+        padding: 20px 8% 75px 5%;
+        border: 2px solid green;
+    }
+
+    #hero-content {
+        display: flex;
+        gap: 10px;
+        padding: 20px;
+        border: 2px solid blue;
+    }
+
+    #hero-content div {
+        border: 2px solid red;
+    }
+
+    #hero-text-container {
+        flex-grow: 1;
+    }
+
+    #hero-image {
+        flex-grow: 0;
+        flex-basis: 430px;
+    }
+
+    #more-images {
+        display: flex;
+    }
+
+    #portrait {
+        margin: 0;
+    }
+
+    #sticky-parent {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        height: 240px;
+    }
+
+    #about-me-div {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: calc(80vh);
+        text-align: center;
+        width: 100%;
+    }
 }
