@@ -163,10 +163,13 @@ section {
 
 .updates-click {
     cursor: pointer;
+    margin: 15px 0 0 0;
 }
 
 .recent-updates {
     display: none;
+    margin-left: 25px;
+    margin-top: 5px;
 }
 
 .recent-updates.active {

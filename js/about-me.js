@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", () => {
             const text = document.getElementById("recent-" + header.id)
             text.classList.toggle("active");
 
-            if (text.classList.contains("active")) header.textContent = header.textContent.replace(">", "v");
-            else header.textContent = header.textContent.replace("v", ">");;
+            if (text.classList.contains("active")) header.textContent = header.textContent.replace("▸", "▾");
+            else header.textContent = header.textContent.replace("▾", "▸");;
         });
     });
 });

@@ -3,11 +3,10 @@ TO-DO LIST:
 OVERALL:
 - ❗ipad/desktop css (noooooooo)
 
-❗ABOUT ME: What I'm currently up to & caret styles
+ABOUT ME: keep updating
 
 ❗COMPUTER SCIENCE: 
 - Brief intro (why i like cs?)
-- Languages
 - Link to Bronze/Silver Google Docs or CP milestones?
 - Hackatime/Codeforces/GitHub Live updates (API?)
 
