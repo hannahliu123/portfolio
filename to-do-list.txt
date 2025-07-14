@@ -5,9 +5,7 @@ OVERALL:
 
 ABOUT ME: keep updating
 
-❗COMPUTER SCIENCE: 
-- Brief intro (why i like cs?)
-- Link to Bronze/Silver Google Docs or CP milestones?
+❗COMPUTER SCIENCE:
 - Hackatime/Codeforces/GitHub Live updates (API?)
 
 MILESTONES: keep updating

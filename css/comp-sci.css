@@ -9,6 +9,7 @@
     --btn: #CCBEB5;
     --btn-hover: #C4B6AE;
     --btn-active: #BDAFA6;
+    --decorate: #d26d68;
     --link: #913F3A;
     --link-hover: #cb605a;
     --project-bg: #c48f8a;
@@ -70,13 +71,24 @@ a:active {
     text-decoration: none;
 }
 
+.decorate {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px;
+    text-decoration-color: var(--decorate);
+}
+
 section {
-    scroll-margin-top: 80px;   /* accounts for nav bar's space */
+    scroll-margin-top: 70px;   /* accounts for nav bar's space */
     margin-bottom: 30px;
 }
 
 h2 {
     margin: 10px 0;
+}
+
+#background p {
+    margin: 0 0 10px 0;
 }
 
 #languages-container {
