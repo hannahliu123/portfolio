@@ -250,6 +250,75 @@ body.mobile-menu-open .footer {
 }
 
 @media screen and (min-width: 768px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    #nav-bar {
+        margin: -40px;
+    }
+
+    #top {
+        padding: 15px 20px;
+    }
+
+    #logo {
+        gap: 20px;
+    }
+
+    #logo-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #logo h1 {
+        font-size: 1.8rem;
+    }
+
+    #nav-btns p {
+        font-size: 2rem;
+    }
+
+    #nav-links {
+        margin: 40px 0;
+    }
+
+    #nav-links li {
+        padding: 0 25px;
+        font-size: 1.9rem;
+    }
+
+    #divider {
+        margin: 30px 40px;
+    }
+
+    #bottom.mobile-menu-open {
+        height: calc(100vh - 90px);
+    }
+
+    #bottom.mobile-menu-open #nav-links ul {
+        gap: 21px;
+    }
+
+    .footer {
+        bottom: -40px;
+        left: -40px;
+        width: calc(100% + 80px);
+    }
+
+    .contacts {
+        gap: 22px;
+    }
+
+    .footer a {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footer img {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 @media screen and (min-width: 1000px) and (orientation: portrait) {

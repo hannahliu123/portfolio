@@ -286,19 +286,22 @@ section {
     }
 
     button {
-        font-size: 2.2rem;
-        padding: 20px 40px;
+        font-size: 2rem;
+        padding: 18px 30px;
     }
 
     .header {
         font-size: 3rem;
-        /* margin-top: 50px;
-        margin-bottom: 15px; */
+        margin-top: 100px;
+    }
+
+    section {
+        scroll-margin-top: 120px;   /* accounts for nav bar's space */
     }
 
     #hero-section {
         width: calc(100% + 60px);
-        margin: -40px -20px 125px -20px;
+        margin: -40px -20px 140px -20px;
         padding: 35px 7% 150px 4%;
     }
 
@@ -325,6 +328,37 @@ section {
 
     #sticky-parent {
         height: 450px;
+    }
+
+    .project {
+        padding: 25px 30px;
+        margin-bottom: 20px;
+    }
+
+    .project .project-title {
+        gap: 17px;
+    }
+
+    .project img {
+        margin: 10px 0 15px 0;
+    }
+
+    .project .project-title .date {
+        font-size: 1.25rem;
+    }
+
+    .post {
+        padding: 25px;
+        margin-bottom: 20px;
+    }
+
+    .post-title {
+        margin: 13px 0;
+    }
+
+    .read-more-btn {
+        padding: 10px 15px;
+        font-size: 1.7rem;
     }
 }
 
