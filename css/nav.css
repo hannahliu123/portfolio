@@ -252,5 +252,78 @@ body.mobile-menu-open .footer {
 @media screen and (min-width: 768px) {
 }
 
+@media screen and (min-width: 1000px) and (orientation: portrait) {
+    body {
+        font-size: 2rem;
+    }
+
+    #nav-bar {
+        margin: -60px;
+    }
+
+    #top {
+        padding: 20px 30px;
+    }
+
+    #logo {
+        gap: 25px;
+    }
+
+    #logo-img {
+        width: 75px;
+        height: 75px;
+    }
+
+    #logo h1 {
+        font-size: 2.2rem;
+    }
+
+    #nav-btns p {
+        font-size: 2.5rem;
+    }
+
+    #nav-links {
+        margin: 50px 0;
+    }
+
+    #nav-links li {
+        padding: 0 40px;
+        font-size: 2.35rem;
+    }
+
+    #divider {
+        margin: 40px 50px;
+    }
+
+    #bottom.mobile-menu-open {
+        height: calc(100vh - 115px);
+    }
+
+    #bottom.mobile-menu-open #nav-links ul {
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .footer {
+        bottom: -60px;
+        left: -60px;
+        width: calc(100% + 120px);
+    }
+
+    .contacts {
+        gap: 30px;
+    }
+
+    .footer a {
+        width: 75px;
+        height: 75px;
+    }
+
+    .footer img {
+        width: 38px;
+        height: 38px;
+    }
+}
+
 @media screen and (min-width: 1200px) {
 }

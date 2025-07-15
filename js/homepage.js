@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // ========== Event Listeners ================
     window.addEventListener("scroll", () => {
-        aboutMeYPos = projectsSection.offsetTop - 90;
+        aboutMeYPos = projectsSection.offsetTop - 160;
         let currYScroll = window.scrollY;
 
         if (currYScroll+1 >= aboutMeYPos) {
