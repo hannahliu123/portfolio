@@ -8,10 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const blogBtn = document.getElementById("blog-btn");
     let aboutMeYPos = 0;
     let prevScroll = 0;
-    let navHeight = 80;   // 115
+    let navHeight = 80;
 
     if (window.innerWidth >= 768) navHeight = 120;
-    if (window.innerWidth >= 1000) navHeight = 160;
+    if (window.innerWidth >= 1000) navHeight = 90;
 
     // ========== Event Listeners ================
     window.addEventListener("scroll", () => {

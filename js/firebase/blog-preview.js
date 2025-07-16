@@ -25,8 +25,11 @@ const db = getFirestore(app);       // my connected Firestore database
 const postsRef = collection(db, "posts");
 
 let postsArray = [];
-const postsContainer = document.getElementById("posts-container");
-const postsToShowCount = 2;     // number of posts to show in the blog preivew on my homepage
+const postsContainer1 = document.getElementById("posts-row1");
+const postsContainer2 = document.getElementById("posts-row2");
+let postsToShowCount = 2;     // number of posts to show in the blog preivew on my homepage
+if (window.innerWidth >= 1000) postsToShowCount = 4;
+let count = 1;
 
 async function getPosts() {
     const querySnapshot = await getDocs(postsRef);
@@ -52,7 +55,9 @@ async function getPosts() {
             </div>
         `;
         
-        postsContainer.appendChild(postDiv);
+        if (count % 2 == 1) postsContainer1.appendChild(postDiv);
+        else postsContainer2.appendChild(postDiv);
+        count++;
 
         // Event Listeners for Posts
         const clickable = postDiv.querySelectorAll(".click");
