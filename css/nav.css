@@ -321,17 +321,13 @@ body.mobile-menu-open .footer {
     }
 }
 
-@media screen and (min-width: 1000px) and (orientation: portrait) {
+@media screen and (min-width: 1000px){
     body {
         font-size: 1rem;
     }
 
     #nav-bar {
         margin: -60px;
-    }
-
-    #top {
-        padding: 10px 20px;
     }
 
     #logo {
@@ -396,7 +392,4 @@ body.mobile-menu-open .footer {
     .footer-credit {
         font-size: 1.2rem;
     }
-}
-
-@media screen and (min-width: 1200px) {
 }

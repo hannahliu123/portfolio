@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let navHeight = 80;
 
     if (window.innerWidth >= 768) navHeight = 120;
-    if (window.innerWidth >= 1000) navHeight = 90;
+    if (window.innerWidth >= 1000) navHeight = 95;
 
     // ========== Event Listeners ================
     window.addEventListener("scroll", () => {
