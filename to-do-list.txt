@@ -1,8 +1,8 @@
 TO-DO LIST:
 
 ❗Responsive CSS:
-- Homepage (complete final media queries)
 - Nav Bar (complete all media queries) + figure out the whatever height thing (maybe once the height of the about me button is 0?)
+- make blog responsive as well (and the blog's nav)
 
 ABOUT ME: keep updating
 
@@ -11,6 +11,7 @@ COMPUTER SCIENCE: done~
 MILESTONES: keep updating
 
 EXTRA (later)
+- Change homepage (or all page) headers to a partially-persistent header that appears for 300–400ms long (see https://www.nngroup.com/articles/sticky-headers/ #4). if not, then maybe some other design
 - Hackatime/Codeforces/GitHub Live updates (https://cal-heatmap.com/)
 - clean up and fix those stupid milestone document fields in firebase (WHO CAME UP WITH THE UI OOOOOOHHHH MY GOSH THEY'RE GOING DOWN)
 - more firebase features (figure out analytics? hosting?)

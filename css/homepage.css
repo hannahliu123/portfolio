@@ -434,7 +434,7 @@ section {
     }
 
     section {
-        scroll-margin-top: 90px;   /* accounts for nav bar's space */
+        scroll-margin-top: 100px;   /* accounts for nav bar's space */
     }
 
     #hero-section {
