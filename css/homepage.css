@@ -148,7 +148,7 @@ section {
 #about-me-div {
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: calc(80vh);
+    top: 80vh;
     text-align: center;
     width: 100%;
 }
@@ -269,6 +269,12 @@ section {
     flex-direction: column;
     gap: 15px;
     margin-bottom: 15px;
+}
+
+#posts-row1, #posts-row2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .post {
@@ -411,7 +417,7 @@ section {
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
     body {
         font-size: 1rem;
         padding: 60px;
@@ -435,14 +441,14 @@ section {
         width: calc(100% + 100px);
         min-height: auto;
         margin: -20px -60px 100px -40px;
-        padding: 30px 8% 0px 5%;
+        padding: 1.5% 7.75% 0px 4.5%;
     }
 
     #hero-content {
         display: flex;
         gap: 10px;
         margin: 0;
-        padding: 20px 30px 0 30px;
+        padding: 30px 30px 0 30px;
     }
 
     #hero-text-container {
@@ -459,14 +465,14 @@ section {
 
     #sticky-parent {
         position: static;
-        margin-top: -130px;
+        margin-top: -15vw;
         padding: 0;
         width: 58%;
-        height: 250px;
+        height: 25vw;
     }
 
     #about-me-div {
-        top: 20px;
+        top: 25vh;
     }
 
     #portrait {
@@ -523,9 +529,6 @@ section {
     #posts-row1, #posts-row2 {
         flex-basis: 0;
         flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
     }
 
     .post {
@@ -547,118 +550,40 @@ section {
     }
 }
 
-@media screen and (min-width: 1000px) and (orientation: landscape) {
-    section {
-        scroll-margin-top: 95px;
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    body {
+        font-size: 1rem;
+        padding: 60px;
+    }
+
+    button {
+        font-size: 1.4rem;
+        padding: 15px 25px;
     }
 
     #hero-section {
-        padding: 15px 8% 0px 5%;
-        border: 2px solid blue;
+        padding: 1.5% 8% 0px 5%;
     }
 
     #hero-content {
-        padding: 2.5vw 3vw 0 3vw;
-        border: 2px solid yellow;
+        padding: 3vw 3vw 0 3vw;
     }
 
     #hero-text-container {
-        flex-grow: 3;
-        border: 2px solid red;
+        flex-grow: 16;
     }
     
     #hero-image {
-        flex-grow: 2;
-        border: 2px solid red;
+        flex-grow: 9;
     }
 
     #sticky-parent {
-        position: static;
-        margin-top: calc(-70vh + 310px);
-        padding: 0;
-        width: 60%;
-        height: 370px;
-        border: 2px solid green;
+        margin-top: calc(-1*17vh);
+        width: 63%;
+        height: 35vh;
     }
 
     #about-me-div {
-        top: 20px;
-    }
-
-    #portrait {
-        margin: 0;
-    }
-
-    .name {
-        margin: 0 0 2px 0;
-    }
-
-    #hero-desc {
-        margin: 5px 0 12px 0;
-    }
-
-    .hero-text {
-        margin-bottom: 1px;
-    }
-
-    #projects-container {
-        flex-direction: row;
-        gap: 10px;
-    }
-
-    #projects1, #projects2 {
-        flex-basis: 0;
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .project {
-        height: min-content;
-        padding: 20px 25px;
-    }
-
-    .project .project-title {
-        gap: 10px;
-    }
-
-    .project img {
-        margin: 5px 0 10px 0;
-    }
-
-    .project .project-title .date {
-        font-size: 0.75rem;
-    }
-
-    #posts-container {
-        flex-direction: row;
-        gap: 15px;
-    }
-
-    #posts-row1, #posts-row2 {
-        flex-basis: 0;
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .post {
-        height: min-content;
-        padding: 20px;
-    }
-
-    .post-cover-img {
-        margin-bottom: 5px;
-    }
-
-    .post-title {
-        margin: 10px 0;
-    }
-
-    .read-more-btn {
-        font-size: 1.25rem;
-        margin-bottom: 5px;
+        top: 45vh;
     }
 }

@@ -11,11 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
     let navHeight = 80;
 
     if (window.innerWidth >= 768) navHeight = 120;
-    if (window.innerWidth >= 1000) navHeight = 95;
+    if (window.innerWidth >= 1024) navHeight = 90;
 
     // ========== Event Listeners ================
     window.addEventListener("scroll", () => {
-        console.log(window.innerWidth)
         aboutMeYPos = projectsSection.offsetTop - navHeight;
         let currYScroll = window.scrollY;
 

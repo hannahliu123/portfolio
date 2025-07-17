@@ -1,7 +1,7 @@
 TO-DO LIST:
 
 ❗Responsive CSS:
-- Homepage (complete all media queries) (restart/change the ipad pro cos its wayyy too big)
+- Homepage (complete final media queries)
 - Nav Bar (complete all media queries) + figure out the whatever height thing (maybe once the height of the about me button is 0?)
 
 ABOUT ME: keep updating
