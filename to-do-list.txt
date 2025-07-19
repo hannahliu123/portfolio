@@ -1,7 +1,6 @@
 TO-DO LIST:
 
 ❗Responsive CSS:
-- Nav Bar (complete all media queries) + figure out the whatever height thing (maybe once the height of the about me button is 0?)
 - make blog responsive as well (and the blog's nav)
 
 ABOUT ME: keep updating
@@ -15,6 +14,7 @@ EXTRA (later)
 - animate about me carets (what im up to)
 - New pictures for projects (longer)
 - have a way of highlighting more notable achievements in milestones page?
+- make it so that you can click anywhere on the entire milestone card (including header) it's simple but I'm to lazy to change my code (also update the description so youc an click anywhere)
 - more firebase features (figure out analytics? hosting?)
     - firebase hosting (get rid of .html in url) instead of gh pages
     - Authentication

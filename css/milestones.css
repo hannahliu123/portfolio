@@ -69,7 +69,7 @@ a:active {
 
 .header {
     font-size: 2rem;
-    margin-top: 50px;
+    margin-top: 60px;
     margin-bottom: 10px;
 }
 
@@ -79,12 +79,18 @@ a:active {
 }
 
 #cards {
-    display: grid;
-    grid-template-columns: 100%;
+    display: flex;
+    flex-direction: column;
     gap: 25px;
 }
 
-#cards > div {
+#left, #right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card {
     scroll-margin-top: 75px;   /* accounts for nav bar's space */
     background-color: var(--section-bg);
     border-radius: 10px;
@@ -94,30 +100,26 @@ a:active {
     height: max-content;
 }
 
-#cards > div:hover {
+.card:hover {
     background-color: var(--section-bg-hover);
     transform: scale(1.015);
 }
 
-#cards > div:active {
-    background-color: var(--section-bg-active);
-}
-
-#cards > div:nth-child(even) {
+.card:nth-child(even) {
     background-color: var(--section2-bg);
     color: var(--text2);
 }
 
-#cards > div:nth-child(even):hover {
+.card:nth-child(even):hover {
     background-color: var(--section2-bg-hover);
     transform: scale(1.015);
 }
 
-#cards > div:nth-child(even):active {
+.card:nth-child(even):active {
     background-color: var(--section2-bg-active);
 }
 
-#cards > div > h2 {
+.card > h2 {
     margin: 0;
 }
 
@@ -142,7 +144,7 @@ h2 a {
     max-height: none;
 }
 
-#cards > div .fade {
+.card .fade {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -158,23 +160,23 @@ h2 a {
     transform: scale(1.25);
 }
 
-#cards > div:hover .fade {
+.card:hover .fade {
     background: linear-gradient(transparent, var(--section-bg-hover));
 }
 
-#cards > div:active .fade {
+.card:active .fade {
     background: linear-gradient(transparent, var(--section-bg-active));
 }
 
-#cards > div:nth-child(even) .content .fade {
+.card:nth-child(even) .content .fade {
     background: linear-gradient(transparent, var(--section2-bg));
 }
 
-#cards > div:nth-child(even):hover .content .fade {
+.card:nth-child(even):hover .content .fade {
     background: linear-gradient(transparent, var(--section2-bg-hover));
 }
 
-#cards > div:nth-child(even):active .content .fade {
+.card:nth-child(even):active .content .fade {
     background: linear-gradient(transparent, var(--section2-bg-active));
 }
 
@@ -204,15 +206,11 @@ h2 a {
 
     .header {
         font-size: 3rem;
-        margin-top: 100px;
+        margin-top: 80px;
     }
 
     section {
         scroll-margin-top: 120px;   /* accounts for nav bar's space */
-    }
-    
-    #cards {
-        grid-template-columns: 50% 50%;
     }
 }
 
@@ -229,22 +227,19 @@ h2 a {
 
     .header {
         font-size: 2rem;
-        margin-top: 70px;
+        margin-top: 45px;
     }
 
     section {
         scroll-margin-top: 100px;   /* accounts for nav bar's space */
     }
-}
-
-@media screen and (min-width: 1024px) and (orientation: landscape) {
-    body {
-        font-size: 1rem;
-        padding: 60px;
+    
+    #cards {
+        flex-direction: row;
     }
 
-    button {
-        font-size: 1.4rem;
-        padding: 15px 25px;
+    #left, #right {
+        flex-basis: 0;
+        flex-grow: 1;
     }
 }
