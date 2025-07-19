@@ -84,7 +84,7 @@ section {
 }
 
 h2 {
-    margin: 10px 0;
+    margin: 15px 0 10px 0;
 }
 
 #background p {
@@ -116,6 +116,10 @@ h2 {
     margin: 0;
 }
 
+#cp-desc {
+    margin: 0;
+}
+
 #cpp .name {
     margin-left: 2px;
 }
@@ -129,11 +133,16 @@ h2 {
     margin-bottom: 5px;
 }
 
+#projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .project {
     background-color: var(--project-bg);
     color: var(--dark-text);
     padding: 15px;
-    margin-bottom: 10px;
     border-radius: 8px;
 }
 
@@ -167,7 +176,7 @@ h2 {
 }
  
 .project .project-desc {
-    margin: 10px 0;
+    margin-top: 10px;
 }
 
 .project .project-links {
@@ -189,7 +198,98 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
+    body {
+        font-size: 1.5rem;
+        padding: 40px;
+    }
+
+    .header {
+        font-size: 3rem;
+        margin-top: 100px;
+    }
+
+    section {
+        scroll-margin-top: 120px;   /* accounts for nav bar's space */
+    }
+
+    h2 {
+        font-size: 2.25rem;
+        margin: 50px 0 10px 0;
+    }
+
+    #projects-container {
+        gap: 20px;
+    }
+
+    .project {
+        padding: 30px 35px;
+        border-radius: 8px;
+    }
+
+    .project .project-title {
+        gap: 17px;
+    }
+
+    .project .project-title .date {
+        font-size: 1.25rem;
+    }
+    
+    .project img {
+        margin: 10px 0 15px 0;
+        border-radius: 5px;
+    }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1rem;
+        padding: 60px;
+    }
+
+    .header {
+        font-size: 2rem;
+        margin-top: 45px;
+    }
+
+    section {
+        scroll-margin-top: 90px;   /* accounts for nav bar's space */
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin: 20px 0 10px 0;
+    }
+
+    .project {
+        display: flex;
+        gap: 40px;
+        padding: 20px 25px;
+    }
+
+    .left {
+        flex-basis: 0;
+        flex-grow: 10;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .right {
+        flex-basis: 0;
+        flex-grow: 9;
+    }
+
+    .project .project-title {
+        gap: 10px;
+    }
+
+    .project .project-title .date {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    body {
+        padding: 60px;
+    }
 }
