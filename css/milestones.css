@@ -105,17 +105,20 @@ a:active {
     transform: scale(1.015);
 }
 
-.card:nth-child(even) {
+#left .card:nth-child(even),
+#right .card:nth-child(odd) {
     background-color: var(--section2-bg);
     color: var(--text2);
 }
 
-.card:nth-child(even):hover {
+#left .card:nth-child(even):hover, 
+#right .card:nth-child(odd):hover {
     background-color: var(--section2-bg-hover);
     transform: scale(1.015);
 }
 
-.card:nth-child(even):active {
+#left .card:nth-child(even):active, 
+#right .card:nth-child(odd):active {
     background-color: var(--section2-bg-active);
 }
 
@@ -159,7 +162,6 @@ h2 a {
     padding-bottom: 3px;
     transform: scale(1.25);
 }
-
 .card:hover .fade {
     background: linear-gradient(transparent, var(--section-bg-hover));
 }
@@ -168,15 +170,18 @@ h2 a {
     background: linear-gradient(transparent, var(--section-bg-active));
 }
 
-.card:nth-child(even) .content .fade {
+#left .card:nth-child(even) .content .fade,
+#right .card:nth-child(odd) .content .fade {
     background: linear-gradient(transparent, var(--section2-bg));
 }
 
-.card:nth-child(even):hover .content .fade {
+#left .card:nth-child(even):hover .content .fade,
+#right .card:nth-child(odd):hover .content .fade {
     background: linear-gradient(transparent, var(--section2-bg-hover));
 }
 
-.card:nth-child(even):active .content .fade {
+#left .card:nth-child(even):active .content .fade,
+#right .card:nth-child(odd):active .content .fade {
     background: linear-gradient(transparent, var(--section2-bg-active));
 }
 

@@ -1,7 +1,8 @@
-const cards = document.querySelectorAll(".content");
+const cards = document.querySelectorAll(".card");
 
 cards.forEach(card => {
     card.addEventListener("click", () => {
-        card.classList.toggle("expand");
+        const child = card.querySelector(".content");
+        child.classList.toggle("expand");
     });
 });
