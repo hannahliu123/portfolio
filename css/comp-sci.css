@@ -16,6 +16,7 @@
     --project2-bg: #d4b8b6;
     --project-link: #5c2623;
     --project-link-hover: #74322e;
+    --project-img-bg: #e7e7e7;
 }
 
 html {
@@ -140,6 +141,9 @@ h2 {
 }
 
 .project {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     background-color: var(--project-bg);
     color: var(--dark-text);
     padding: 15px;
@@ -165,9 +169,14 @@ h2 {
     margin: 0;
 }
 
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .project img {
     width: 100%;
-    margin: 5px 0 10px 0;
     border-radius: 5px;
 }
 
@@ -222,8 +231,13 @@ h2 {
     }
 
     .project {
+        gap: 25px;
         padding: 30px 35px;
         border-radius: 8px;
+    }
+
+    .right {
+        gap: 15px;
     }
 
     .project .project-title {
@@ -235,7 +249,6 @@ h2 {
     }
     
     .project img {
-        margin: 10px 0 15px 0;
         border-radius: 5px;
     }
 }
@@ -261,22 +274,38 @@ h2 {
     }
 
     .project {
-        display: flex;
+        flex-direction: row;
         gap: 40px;
         padding: 20px 25px;
+        height: auto;
     }
 
     .left {
         flex-basis: 0;
         flex-grow: 10;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        padding: 5px 0;
     }
 
     .right {
         flex-basis: 0;
         flex-grow: 9;
+        gap: 10px;
+        height: auto;
+    }
+
+    .project-img {
+        height: 0;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        background-color: var(--project-img-bg);
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .right img {
+        width: auto;
+        height: 100%;
     }
 
     .project .project-title {
