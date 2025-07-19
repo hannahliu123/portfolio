@@ -306,6 +306,7 @@ h2 {
     .right img {
         width: auto;
         height: 100%;
+        border-radius: 0;
     }
 
     .project .project-title {

@@ -100,15 +100,22 @@ section {
 }
 
 #hero-section {
+    display: flex;
+    justify-content: center;
+    margin: -10px -20px;
+    padding: 1px;
+    width: calc(100% + 40px);
+}
+
+#hero-sect {
     position: relative;
     min-height: calc(100vh - 30px);
-    width: calc(100% + 30px);
+    width: calc(100% - 10px);
     background-color: none;
     background-image: url("../photos/torn-paper.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin: -20px -15px;
-    margin-bottom: 95px;
+    margin: 0 0 95px 10px;
     padding: 10px 0;
 }
 
@@ -312,7 +319,7 @@ section {
 }
 
 @media screen and (min-width: 540px) {
-    #hero-section {
+    #hero-sect {
         padding: 30px 7% 50px 4%;
     }
 
@@ -322,7 +329,7 @@ section {
     }
 
     #sticky-parent {
-        height: 305px;
+        height: 310px;
     }
 }
 
@@ -347,14 +354,18 @@ section {
     }
 
     #hero-section {
-        width: calc(100% + 60px);
-        margin: -40px -20px 140px -20px;
+        margin: -30px -40px;
+        width: calc(100% + 80px);
+    }
+
+    #hero-sect {
         padding: 35px 7% 150px 4%;
+        margin: 0 0 140px 20px;
     }
 
     #hero-content {
         margin: 0;
-        padding: 40px 50px 250px 50px;
+        padding: 40px 50px 260px 50px;
     }
 
     .name {
@@ -425,7 +436,7 @@ section {
 
     button {
         font-size: 1.4rem;
-        padding: 15px 25px;
+        padding: 12px 25px;
     }
 
     .header {
@@ -438,37 +449,41 @@ section {
     }
 
     #hero-section {
-        width: calc(100% + 100px);
+        margin: -30px -60px;
+        width: calc(100% + 120px);
+    }
+
+    #hero-sect {
+        padding: 15px 71px 0 42px;
+        margin: 0 0 40px 30px;
+        width: 1000px;
         min-height: auto;
-        margin: -20px -60px 100px -40px;
-        padding: 1.5% 7.75% 0px 4.5%;
     }
 
     #hero-content {
         display: flex;
-        gap: 10px;
         margin: 0;
-        padding: 30px 30px 0 30px;
+        padding: 29px 33px 0 35px;
     }
 
     #hero-text-container {
         flex-basis: 0;
-        flex-grow: 29;
+        flex-grow: 4;
     }
     
     #hero-image {
         flex-basis: 0;
-        flex-grow: 21;
+        flex-grow: 3;
         display: flex;
         margin: 0;
     }
 
     #sticky-parent {
         position: static;
-        margin-top: -15vw;
+        margin-top: -140px;
         padding: 0;
-        width: 58%;
-        height: 25vw;
+        width: 57%;
+        height: 250px;
     }
 
     #about-me-div {
@@ -552,37 +567,6 @@ section {
 }
 
 @media screen and (min-width: 1024px) and (orientation: landscape) {
-    body {
-        padding: 60px;
-    }
-
-    button {
-        font-size: 1.4rem;
-        padding: 15px 25px;
-    }
-
-    #hero-section {
-        padding: 1.5% 8% 0px 5%;
-    }
-
-    #hero-content {
-        padding: 3vw 3vw 0 3vw;
-    }
-
-    #hero-text-container {
-        flex-grow: 16;
-    }
-    
-    #hero-image {
-        flex-grow: 9;
-    }
-
-    #sticky-parent {
-        margin-top: calc(-1*17vh);
-        width: 63%;
-        height: 35vh;
-    }
-
     #about-me-div {
         top: 45vh;
     }
