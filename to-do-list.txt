@@ -1,8 +1,5 @@
 TO-DO LIST:
 
-❗Responsive CSS:
-- make blog responsive as well (and the blog's nav)
-
 ABOUT ME: keep updating
 
 COMPUTER SCIENCE: done~

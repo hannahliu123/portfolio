@@ -37,7 +37,7 @@ async function getPosts() {
         postsArray.push(doc.data());
     });
 
-    postsArray = postsArray.slice(0, postsToShowCount);
+    postsArray = postsArray.slice(-1*postsToShowCount);
 
     postsArray.forEach(post => {
         const postDiv = document.createElement("div");
@@ -55,8 +55,8 @@ async function getPosts() {
             </div>
         `;
         
-        if (count % 2 == 1) postsContainer1.appendChild(postDiv);
-        else postsContainer2.appendChild(postDiv);
+        if (count % 2 == 0) postsContainer1.prepend(postDiv);
+        else postsContainer2.prepend(postDiv);
         count++;
 
         // Event Listeners for Posts
