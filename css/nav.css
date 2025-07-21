@@ -340,11 +340,11 @@ body.mobile-menu-open .footer {
     }
 
     #logo h1 {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     #nav-btns p {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     #nav-links {
@@ -352,12 +352,12 @@ body.mobile-menu-open .footer {
     }
 
     #nav-links li {
-        padding: 0 20px;
-        font-size: 1.4rem;
+        padding: 0 10px;
+        font-size: 1.25rem;
     }
 
     #divider {
-        margin: 35px 30px;
+        margin: 25px 20px;
     }
 
     #bottom.mobile-menu-open {
@@ -365,7 +365,7 @@ body.mobile-menu-open .footer {
     }
 
     #bottom.mobile-menu-open #nav-links ul {
-        gap: 25px;
+        gap: 20px;
         padding: 0 20px;
     }
 
@@ -377,21 +377,17 @@ body.mobile-menu-open .footer {
     }
 
     .contacts {
-        gap: 20px;
+        gap: 15px;
     }
 
     .footer a {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
 
     .footer img {
-        width: 25px;
-        height: 25px;
-    }
-
-    .footer-credit {
-        font-size: 1.2rem;
+        width: 20px;
+        height: 20px;
     }
 }
 
