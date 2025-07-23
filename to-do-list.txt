@@ -1,4 +1,5 @@
 TO-DO LIST:
+- fun 404 page
 
 ABOUT ME: keep updating
 
