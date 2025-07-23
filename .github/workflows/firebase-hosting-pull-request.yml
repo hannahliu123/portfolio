@@ -4,9 +4,11 @@
 name: Deploy to Firebase Hosting on PR
 on: 
   push:
-    - main
+    branches:
+      - main
   pull_request:
-    - main
+    branches:
+      - main
 permissions:
   checks: write
   contents: read
