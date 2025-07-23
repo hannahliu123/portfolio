@@ -28,7 +28,7 @@ jobs:
           channelId: live
           projectId: my-blog-986f0
   preview_on_pr:
-    if: github.event_name == "pull-request" && github.event.pull_request.head.repo.full_name == github.repository
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
