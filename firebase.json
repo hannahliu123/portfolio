@@ -2,32 +2,11 @@
   "hosting": {
     "site": "my-blog-986f0", 
     "public": ".",
+    "cleanUrls": true,
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "/home",
-        "destination": "/index.html"
-      },
-      {
-        "source": "/about-me",
-        "destination": "/about-me.html"
-      },
-      {
-        "source": "/comp-sci",
-        "destination": "/comp-sci.html"
-      },
-      {
-        "source": "/milestones",
-        "destination": "/milestones.html"
-      },
-      {
-        "source": "/404",
-        "destination": "/404.html"
-      }
     ]
   }
 }
