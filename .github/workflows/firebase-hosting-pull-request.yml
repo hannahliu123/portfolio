@@ -9,13 +9,26 @@ on:
   pull_request:
     branches:
       - main
+
 permissions:
   checks: write
   contents: read
   pull-requests: write
+
 jobs:
-  build_and_preview:
-    if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
+  deploy_on_push:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MY_BLOG_986F0 }}
+          channelId: live
+          projectId: my-blog-986f0
+  preview_on_pr:
+    if: github.event_name == 'pull-request" && github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
