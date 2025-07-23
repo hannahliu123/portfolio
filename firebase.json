@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "my-blog-986f0", 
     "public": ".",
     "ignore": [
       "firebase.json",
