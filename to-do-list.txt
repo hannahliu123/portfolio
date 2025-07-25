@@ -21,8 +21,7 @@ EXTRA (later)
 NAV:
 - Change homepage (or all page) headers to a partially-persistent header that appears for 300–400ms long (see https://www.nngroup.com/articles/sticky-headers/ #4). if not, then maybe some other design
 - nav screen fade transition (fade back to normal but im too lazy rn)
-- nav bar make it look better on short screens (a way of seeing that you can scroll - maybe fade top/bottom?)
+- different nav design for desktop?
 - nav bar icon transition (hamburger to x)
 - Dark Mode (icon in nav bar)
-- edit logo (maybe a pop of color? idk at least fix the current colors for now)
-- add pinterest to footer? nah it's kinda useless but maybe if i get bored
+- edit logo (maybe a pop of color?)

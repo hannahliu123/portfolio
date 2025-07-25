@@ -35,6 +35,15 @@ async function getPosts() {
     const querySnapshot = await getDocs(postsRef);
     querySnapshot.forEach(doc => {
         postsArray.push(doc.data());
+    });    
+
+    postsArray.sort((a, b) => {    // sort all comments by date (earliest -> most recent)
+        const timeA = a.timestamp;
+        const timeB = b.timestamp;
+
+        if (timeA < timeB) return -1;
+        if (timeA > timeB) return 1;
+        return 0;
     });
 
     postsArray = postsArray.slice(-1*postsToShowCount);
