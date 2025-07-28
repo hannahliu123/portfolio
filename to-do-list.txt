@@ -1,5 +1,6 @@
 TO-DO LIST:
 - fun 404 page
+- change all emails to byhannahliu@gmail.com
 
 ABOUT ME: keep updating
 
