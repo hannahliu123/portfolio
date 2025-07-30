@@ -8,9 +8,9 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [
+    "rewrites": [ 
       {
-        "source": "**",
+        "source": "/**",
         "destination": "/offline.html"
       }
     ]
