@@ -11,47 +11,22 @@
     "redirects": [ 
       {
         "source": "/",
-        "destination": "/offline1",
+        "destination": "/offline",
         "type": 302
       },
       {
         "source": "/about-me",
-        "destination": "/offline3",
-        "type": 302
-      },
-      {
-        "source": "/about-me.html",
-        "destination": "/offline33",
+        "destination": "/offline",
         "type": 302
       },
       {
         "source": "/comp-sci",
-        "destination": "/offline4",
-        "type": 302
-      },
-      {
-        "source": "/comp-sci.html",
-        "destination": "/offline5",
-        "type": 302
-      },
-      {
-        "source": "/comp-sci/",
-        "destination": "/offline44",
-        "type": 302
-      },
-      {
-        "source": "/comp-sci.html/",
-        "destination": "/offline55",
+        "destination": "/offline",
         "type": 302
       },
       {
         "source": "/milestones",
-        "destination": "/offline6",
-        "type": 302
-      },
-      {
-        "source": "/milestones.html",
-        "destination": "/offline7",
+        "destination": "/offline",
         "type": 302
       }
     ]
