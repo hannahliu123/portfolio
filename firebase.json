@@ -10,6 +10,11 @@
     ],
     "redirects": [
       {
+        "source": "!/offline.html",     // Exclude this file from the redirect rule
+        "destination": "/offline.html",
+        "type": 302
+      },
+      {
         "source": "/**",
         "destination": "/offline.html",
         "type": 302

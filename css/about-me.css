@@ -237,7 +237,7 @@ section {
 @media screen and (min-width: 1024px) {
     body {
         font-size: 1rem;
-        padding: 60px;
+        padding: 10vw;
     }
 
     .header {
@@ -246,7 +246,7 @@ section {
     }
 
     #top-header {
-        margin-top: 40px;
+        margin-top: 0;
     }
 
     section {
@@ -254,7 +254,7 @@ section {
     }
 
     #filmstrip {
-        margin: 40px -60px 0 -60px;
+        margin: 40px -10vw 0 -10vw;
     }
 
     .repeat-boxes {
@@ -264,7 +264,7 @@ section {
     }
 
     #photos-scroll .photo img {
-        height: 16vw;
+        height: 150px;
     }
 
     #photos-scroll .photo div {
@@ -279,15 +279,5 @@ section {
     .recent-updates {
         margin-left: 26px;
         margin-right: 22px;
-    }
-}
-
-@media screen and (min-width: 1024px) and (orientation: landscape) {
-    body {
-        padding: 60px;
-    }
-
-    #filmstrip {
-        margin: 40px -60px 0 -60px;
     }
 }

@@ -327,7 +327,7 @@ body.mobile-menu-open .footer {
     }
 
     #nav-bar {
-        margin: -60px;
+        margin: -10vw;
     }
 
     #logo {
@@ -370,10 +370,10 @@ body.mobile-menu-open .footer {
     }
 
     .footer {
-        bottom: -60px;
-        left: -60px;
-        width: calc(100% + 120px);
-        margin-top: 10px;
+        bottom: -10vw;
+        left: -10vw;
+        width: calc(100% + 20vw);
+        margin-top: 0;
     }
 
     .contacts {
