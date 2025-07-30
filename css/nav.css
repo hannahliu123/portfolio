@@ -328,6 +328,7 @@ body.mobile-menu-open .footer {
 
     #nav-bar {
         margin: -10vw;
+        margin-top: -60px;
     }
 
     #logo {

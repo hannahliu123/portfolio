@@ -10,22 +10,27 @@
     ],
     "redirects": [ 
       {
+        "source": "/",
+        "destination": "/offline.html",
+        "type": 302
+      },
+      {
         "source": "/index.html",
         "destination": "/offline.html",
         "type": 302
       },
       {
-        "source": "/about-me",
+        "source": "/about-me.html",
         "destination": "/offline.html",
         "type": 302
       },
       {
-        "source": "/comp-sci",
+        "source": "/comp-sci.html",
         "destination": "/offline.html",
         "type": 302
       },
       {
-        "source": "/milestones",
+        "source": "/milestones.html",
         "destination": "/offline.html",
         "type": 302
       }

@@ -238,6 +238,7 @@ section {
     body {
         font-size: 1rem;
         padding: 10vw;
+        padding-top: 60px;
     }
 
     .header {
@@ -246,7 +247,7 @@ section {
     }
 
     #top-header {
-        margin-top: 0;
+        margin-top: 40px;
     }
 
     section {
