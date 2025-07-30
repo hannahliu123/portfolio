@@ -8,10 +8,26 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [ 
+    "redirects": [ 
       {
-        "source": "/**",
-        "destination": "/offline.html"
+        "source": "/index.html",
+        "destination": "/offline.html",
+        "type": 302
+      },
+      {
+        "source": "/about-me",
+        "destination": "/offline.html",
+        "type": 302
+      },
+      {
+        "source": "/comp-sci",
+        "destination": "/offline.html",
+        "type": 302
+      },
+      {
+        "source": "/milestones",
+        "destination": "/offline.html",
+        "type": 302
       }
     ]
   }
