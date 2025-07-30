@@ -1,23 +1,14 @@
 TO-DO LIST:
+- 10vw padding for 1024px screens
 - fun 404 page
-- change all emails to byhannahliu@gmail.com
-
-ABOUT ME: keep updating
-
-COMPUTER SCIENCE: done~
-
-MILESTONES: keep updating
 
 EXTRA (later)
 - Hackatime/Codeforces/GitHub Live updates (https://cal-heatmap.com/)
 - animate about me carets (what im up to)
 - New pictures for projects (longer)
 - have a way of highlighting more notable achievements in milestones page?
-- more firebase features (figure out analytics? hosting?)
-    - firebase hosting (get rid of .html in url) instead of gh pages
-    - Authentication
+- more firebase features
     - Build personal CMS (content management system)
-    - Commenting (blog)
 
 NAV:
 - Change homepage (or all page) headers to a partially-persistent header that appears for 300–400ms long (see https://www.nngroup.com/articles/sticky-headers/ #4). if not, then maybe some other design
