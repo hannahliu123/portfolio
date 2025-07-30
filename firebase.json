@@ -10,15 +10,8 @@
     ],
     "rewrites": [
       {
-        "source": "/offline.html",
+        "source": "**",
         "destination": "/offline.html"
-      }
-    ],
-    "redirects": [
-      {
-        "source": "/**",
-        "destination": "/offline.html",
-        "type": 302
       }
     ]
   }
