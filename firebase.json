@@ -15,13 +15,13 @@
         "type": 302
       },
       {
-        "source": "/index",
-        "destination": "/offline2",
+        "source": "/about-me",
+        "destination": "/offline3",
         "type": 302
       },
       {
-        "source": "/about-me",
-        "destination": "/offline3",
+        "source": "/about-me.html",
+        "destination": "/offline33",
         "type": 302
       },
       {
@@ -32,6 +32,16 @@
       {
         "source": "/comp-sci.html",
         "destination": "/offline5",
+        "type": 302
+      },
+      {
+        "source": "/comp-sci/",
+        "destination": "/offline44",
+        "type": 302
+      },
+      {
+        "source": "/comp-sci.html/",
+        "destination": "/offline55",
         "type": 302
       },
       {
