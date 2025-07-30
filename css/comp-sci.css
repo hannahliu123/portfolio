@@ -261,7 +261,7 @@ h2 {
 
     .header {
         font-size: 2rem;
-        margin-top: 45px;
+        margin-top: 0;
     }
 
     section {
@@ -270,7 +270,7 @@ h2 {
 
     h2 {
         font-size: 1.5rem;
-        margin: 20px 0 10px 0;
+        margin: 30px 0 10px 0;
     }
 
     .project {
@@ -296,8 +296,6 @@ h2 {
     .project-img {
         height: 0;
         flex-grow: 1;
-        display: flex;
-        justify-content: center;
         background-color: var(--project-img-bg);
         border-radius: 5px;
         overflow: hidden;
@@ -315,11 +313,5 @@ h2 {
 
     .project .project-title .date {
         font-size: 0.75rem;
-    }
-}
-
-@media screen and (min-width: 1024px) and (orientation: landscape) {
-    body {
-        padding: 60px;
     }
 }

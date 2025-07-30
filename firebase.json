@@ -8,12 +8,13 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "redirects": [
+    "rewrites": [
       {
-        "source": "!/offline.html",     // Exclude this file from the redirect rule
-        "destination": "/offline.html",
-        "type": 302
-      },
+        "source": "/offline.html",
+        "destination": "/offline.html"
+      }
+    ],
+    "redirects": [
       {
         "source": "/**",
         "destination": "/offline.html",
