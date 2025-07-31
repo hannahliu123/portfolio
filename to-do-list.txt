@@ -1,5 +1,4 @@
 TO-DO LIST:
-- 10vw padding for 1024px screens
 - fun 404 page
 
 EXTRA (later)
