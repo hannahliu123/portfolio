@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://byhannahliu.com/sitemap.xml
