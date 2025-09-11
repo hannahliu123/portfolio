@@ -7,28 +7,6 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "redirects": [ 
-      {
-        "source": "/",
-        "destination": "/offline",
-        "type": 302
-      },
-      {
-        "source": "/about-me",
-        "destination": "/offline",
-        "type": 302
-      },
-      {
-        "source": "/comp-sci",
-        "destination": "/offline",
-        "type": 302
-      },
-      {
-        "source": "/milestones",
-        "destination": "/offline",
-        "type": 302
-      }
     ]
   }
 }
