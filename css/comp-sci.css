@@ -295,6 +295,8 @@ h2 {
     }
 
     .project-img {
+        display: flex;
+        justify-content: center;
         height: 0;
         flex-grow: 1;
         background-color: var(--project-img-bg);
