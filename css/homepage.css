@@ -115,12 +115,12 @@ section {
     background-image: url("../photos/torn-paper.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin: 0 0 95px 10px;
+    margin: 0 0 5px 10px;
     padding: 10px 0;
 }
 
 #hero-content {
-    padding: 35px 60px 215px 45px;
+    padding: 35px 60px 225px 45px;
 }
 
 .name {
@@ -149,7 +149,7 @@ section {
     left: 0;
     width: 100%;
     padding: 0;
-    height: 240px;
+    height: 250px;
 }
 
 #about-me-div {
@@ -320,7 +320,7 @@ section {
 
 @media screen and (min-width: 540px) {
     #hero-sect {
-        padding: 30px 7% 50px 4%;
+        padding: 30px 7% 60px 4%;
     }
 
     #hero-content {
@@ -329,7 +329,7 @@ section {
     }
 
     #sticky-parent {
-        height: 310px;
+        height: 330px;
     }
 }
 
@@ -365,7 +365,7 @@ section {
 
     #hero-content {
         margin: 0;
-        padding: 40px 50px 260px 50px;
+        padding: 40px 50px 300px 50px;
     }
 
     .name {
@@ -385,7 +385,7 @@ section {
     }
 
     #sticky-parent {
-        height: 450px;
+        height: 500px;
     }
 
     #projects-container {
@@ -464,7 +464,7 @@ section {
     #hero-content {
         display: flex;
         margin: 0;
-        padding: 29px 33px 0 35px;
+        padding: 29px 33px 25px 35px;
     }
 
     #hero-text-container {
@@ -481,10 +481,10 @@ section {
 
     #sticky-parent {
         position: static;
-        margin-top: -140px;
+        margin-top: -90px;
         padding: 0;
         width: 57%;
-        height: 250px;
+        height: 200px;
     }
 
     #about-me-div {
@@ -570,5 +570,12 @@ section {
 @media screen and (min-width: 1024px) and (orientation: landscape) {
     #about-me-div {
         top: 45vh;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    #sticky-parent {
+        margin-top: -150px;
+        height: 240px;
     }
 }
