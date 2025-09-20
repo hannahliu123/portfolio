@@ -1,5 +1,6 @@
 TO-DO LIST:
 - fun 404 page
+- make home page picture of me kinda move when hovering over it
 
 EXTRA (later)
 - Hackatime/Codeforces/GitHub Live updates (https://cal-heatmap.com/)
