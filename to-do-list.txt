@@ -1,11 +1,10 @@
 TO-DO LIST:
 - fun 404 page
-- make home page picture of me kinda move when hovering over it
 
 EXTRA (later)
 - Hackatime/Codeforces/GitHub Live updates (https://cal-heatmap.com/)
 - animate about me carets (what im up to)
-- New pictures for projects (longer)
+- Update projects
 - have a way of highlighting more notable achievements in milestones page?
 - more firebase features
     - Build personal CMS (content management system)

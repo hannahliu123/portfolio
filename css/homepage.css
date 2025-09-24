@@ -137,6 +137,23 @@ section {
     padding: 5px;
 }
 
+#hero-image {
+    cursor: pointer;
+}
+
+#hero-image:hover {
+    animation: rotateImageY 1s ease-in-out;
+}
+
+@keyframes rotateImageY {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(20deg);
+    }
+}
+
 #portrait {
     width: 100%;
     border-radius: 10px;
