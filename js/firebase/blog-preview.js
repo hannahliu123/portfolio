@@ -53,7 +53,7 @@ async function getPosts() {
         postDiv.classList.add("post");
         let previewText = post.content[0];
         const words = previewText.split(" ");
-        previewText = words.slice(0, 25).join(" ");
+        previewText = words.slice(0, 35).join(" ");
         postDiv.innerHTML = `
             <img src="${post.coverImg}" alt="Cover Image" class="post-cover-img click">
             <div class="post-description">
