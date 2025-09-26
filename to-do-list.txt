@@ -4,7 +4,7 @@ TO-DO LIST:
 EXTRA (later)
 - Hackatime/Codeforces/GitHub Live updates (https://cal-heatmap.com/)
 - animate about me carets (what im up to)
-- Update projects
+- update projects
 - have a way of highlighting more notable achievements in milestones page?
 - more firebase features
     - Build personal CMS (content management system)

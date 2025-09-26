@@ -37,18 +37,19 @@ async function getPosts() {
         postsArray.push(doc.data());
     });    
 
-    postsArray.sort((a, b) => {    // sort all comments by date (earliest -> most recent)
+    postsArray.sort((a, b) => {    // sort all comments by date (most recent -> earliest)
         const timeA = a.timestamp;
         const timeB = b.timestamp;
 
-        if (timeA < timeB) return -1;
-        if (timeA > timeB) return 1;
+        if (timeA > timeB) return -1;   // A before B
+        if (timeA < timeB) return 1;    // A after B
         return 0;
     });
 
-    postsArray = postsArray.slice(-1*postsToShowCount);
+    postsArray = postsArray.slice(0, postsToShowCount);
 
     postsArray.forEach(post => {
+        console.log(post);
         const postDiv = document.createElement("div");
         postDiv.classList.add("post");
         let previewText = post.content[0];
@@ -64,8 +65,8 @@ async function getPosts() {
             </div>
         `;
         
-        if (count % 2 == 0) postsContainer1.prepend(postDiv);
-        else postsContainer2.prepend(postDiv);
+        if (count % 2 == 1) postsContainer1.append(postDiv);
+        else postsContainer2.append(postDiv);
         count++;
 
         // Event Listeners for Posts
