@@ -5,6 +5,7 @@ EXTRA (later)
 - Hackatime/Codeforces/GitHub Live updates (https://cal-heatmap.com/)
 - animate about me carets (what im up to)
 - update projects
+- Fix projects display in home page & also make it better for large screens in cs page
 - have a way of highlighting more notable achievements in milestones page?
 - more firebase features
     - Build personal CMS (content management system)
