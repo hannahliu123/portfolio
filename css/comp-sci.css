@@ -9,9 +9,9 @@
     --btn: #CCBEB5;
     --btn-hover: #C4B6AE;
     --btn-active: #BDAFA6;
-    --decorate: #d26d68;
-    --link: #913F3A;
-    --link-hover: #cb605a;
+    --decorate: #245cd4bd;
+    --link: #be4b45;
+    --link-hover: #dc7c77;
     --project-bg: #c48f8a;
     --project2-bg: #d4b8b6;
     --project-link: #5c2623;
@@ -73,10 +73,9 @@ a:active {
 }
 
 .decorate {
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-thickness: 1px;
-    text-decoration-color: var(--decorate);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--decorate);
 }
 
 section {

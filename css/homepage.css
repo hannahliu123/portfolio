@@ -9,7 +9,7 @@
     --btn: #CCBEB5;
     --btn-hover: #C4B6AE;
     --btn-active: #BDAFA6;
-    --decorate: #d26d68;
+    --decorate: #245cd4bd;
     --link: #913F3A;
     --link-hover: #cb605a;
     --filmstrip: #494543;
@@ -66,10 +66,9 @@ button:active {
 }
 
 .decorate {
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-thickness: 1px;
-    text-decoration-color: var(--decorate);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--decorate);
 }
 
 a:link, a:visited {
