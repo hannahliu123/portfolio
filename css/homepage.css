@@ -10,8 +10,8 @@
     --btn-hover: #C4B6AE;
     --btn-active: #BDAFA6;
     --decorate: #245cd4bd;
-    --link: #913F3A;
-    --link-hover: #cb605a;
+    --link: #be4b45;
+    --link-hover: #dc7c77;
     --filmstrip: #494543;
     --filmstrip-highlight: #645f5b;
     --photo-bg: #E7EAF3;
@@ -198,19 +198,22 @@ section {
     border-radius: 8px;
 }
 
-.project:nth-child(odd) {
+#projects1 .project:nth-child(odd), #projects2 .project:nth-child(even) {
     background-color: var(--project2-bg);
     color: var(--text);
 }
 
-#projects2 .project {
-    background-color: var(--project2-bg);
-    color: var(--text);
+#projects1 .project:nth-child(even) .project-links a:link, #projects1 .project:nth-child(even) .project-links a:visited,
+#projects2 .project:nth-child(odd) .project-links a:link, #projects2 .project:nth-child(odd) .project-links a:visited {
+    color: var(--project-link);
 }
 
-#projects2 .project:nth-child(odd) {
-    background-color: var(--project-bg);
-    color: var(--dark-text);
+#projects1 .project:nth-child(even) .project-links a:hover, #projects2 .project:nth-child(odd) .project-links a:hover {
+    color: var(--project-link-hover);
+}
+
+#projects1 .project:nth-child(even) .project-links a:active, #projects2 .project:nth-child(odd) .project-links a:active {
+    color: var(--project-link-link);
 }
 
 .project .project-title {
@@ -244,19 +247,6 @@ section {
 .project .project-links {
     display: flex;
     justify-content: space-around;
-}
-
-.project:nth-child(even) .project-links a:link,
-.project:nth-child(even) .project-links a:visited {
-    color: var(--project-link);
-}
-
-.project:nth-child(even) .project-links a:hover {
-    color: var(--project-link-hover);
-}
-
-.project:nth-child(even) .project-links a:active {
-    color: var(--project-link);
 }
 
 #projects-btn,
