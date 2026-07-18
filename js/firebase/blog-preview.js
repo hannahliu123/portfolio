@@ -53,6 +53,7 @@ async function getPosts() {
         const postDiv = document.createElement("div");
         postDiv.classList.add("post");
         let previewText = post.content[0];
+        if (previewText.length === 0 || previewText.startsWith("/blog-photos/")) previewText = post.content[1];
         const words = previewText.split(" ");
         previewText = words.slice(0, 35).join(" ");
         postDiv.innerHTML = `
