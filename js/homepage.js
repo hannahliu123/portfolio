@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const aboutMeBtn = document.getElementById("about-me-button");
     const projectsBtn = document.getElementById("projects-btn");
     const milestonesBtn = document.getElementById("milestones-btn");
+    const fencingBtn = document.getElementById("fencing-btn");
     const blogBtn = document.getElementById("blog-btn");
     let aboutMeYPos = 0;
     let prevScroll = 0;
@@ -38,6 +39,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // milestonesBtn.addEventListener("click", () => {
     //     window.location.assign("milestones.html");
     // });
+    
+    fencingBtn.addEventListener("click", () => {
+        window.location.href = "fencing.html";
+    });
 
     blogBtn.addEventListener("click", () => {
         window.location.href = "https://blog.byhannahliu.com/";

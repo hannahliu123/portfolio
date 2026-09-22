@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #f6f2ea;
+    --text: #212121;
+    --dark-text: #000000;
+    --btn: #CCBEB5;
+    --btn-hover: #C4B6AE;
+    --btn-active: #BDAFA6;
+    --decorate: #245cd4bd;
+    --link: #be4b45;
+    --link-hover: #dc7c77;
+    --filmstrip: #494543;
+    --filmstrip-highlight: #645f5b;
+    --photo-bg: #E7EAF3;
+    --card-bg: #F1EDE6;
+    --project-bg: #c48f8a;
+    --project2-bg: #d4b8b6;
+    --project-link: #5c2623;
+    --project-link-hover: #74322e;
+    --post-bg: #f4f4f4;
+    --post-btn: #D6CDC6;
+    --post-btn-hover: #D6C8BF;
+    --post-btn-active: #CCBEB5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    font-family: "Outfit", sans-serif;
+    background-color: var(--btn);
+    color: var(--text);
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 10px 20px -10px #000000;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--btn-hover);
+}
+
+button:active {
+    background-color: var(--btn-active);
+}
+
+.header {
+    font-size: 2rem;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+#top-header {
+    margin-top: 65px;
+}
+
+.decorate {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--decorate);
+}
+
+a:link, a:visited {
+    color: var(--link);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+}
+
+a:active {
+    color: var(--link);
+    text-decoration: none;
+}
+
+section {
+    scroll-margin-top: 85px;   /* accounts for nav bar's space */
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1.5rem;
+        padding: 40px;
+    }
+
+    .header {
+        font-size: 3rem;
+        margin-top: 100px;
+    }
+
+    #top-header {
+        margin-top: 90px;
+    }
+
+    section {
+        scroll-margin-top: 120px;   /* accounts for nav bar's space */
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1rem;
+        padding: 10vw;
+        padding-top: 60px;
+    }
+
+    .header {
+        font-size: 2rem;
+        margin-top: 70px;
+    }
+
+    #top-header {
+        margin-top: 40px;
+    }
+
+    section {
+        scroll-margin-top: 100px;   /* accounts for nav bar's space */
+    }
+}
