@@ -7,13 +7,6 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "redirects": [
-      {
-        "source": "/milestones",
-        "destination": "/offline",
-        "type": 302
-      }
     ]
   }
 }

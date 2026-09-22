@@ -36,9 +36,9 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.assign("comp-sci.html#projects");
     });
 
-    // milestonesBtn.addEventListener("click", () => {
-    //     window.location.assign("milestones.html");
-    // });
+    milestonesBtn.addEventListener("click", () => {
+        window.location.assign("milestones.html");
+    });
     
     fencingBtn.addEventListener("click", () => {
         window.location.href = "fencing.html";
