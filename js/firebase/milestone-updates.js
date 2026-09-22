@@ -29,7 +29,9 @@ async function loadUpdates(section) {
     }
 
     const docData = docSnap.data();
-    showUpdates(docData, section);
+    const sortedData = Object.entries(docData).sort((a, b) => a[0].localeCompare(b[0]));
+    console.log(sortedData);
+    showUpdates(sortedData, section);
 }
 
 async function showUpdates(data, section) {
@@ -39,8 +41,8 @@ async function showUpdates(data, section) {
         const fieldValue = data[fieldName];
         let container = document.createElement("div");
         container.innerHTML = `
-            <p class="date">${fieldValue[0]}</p>
-            <p class="description">${fieldValue[1]}</p>
+            <p class="date">${fieldValue[1][0]}</p>
+            <p class="description">${fieldValue[1][1]}</p>
         `;
         content.prepend(container);
     }
