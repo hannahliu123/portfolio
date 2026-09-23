@@ -101,6 +101,11 @@ section {
     margin: 1rem 0;
 }
 
+#watch-more-btn {
+    display: block;
+    margin: auto;
+}
+
 @media screen and (min-width: 768px) {
     body {
         font-size: 1.5rem;

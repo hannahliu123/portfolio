@@ -29,3 +29,9 @@ if (!aboutMeDocSnapshop.exists()) {
     const updates = document.getElementById("updates");
     updates.innerHTML = aboutMeUpdates.fencing;
 }
+
+// Button to watch more
+const fencingBtn = document.getElementById("watch-more-btn");
+fencingBtn.addEventListener("click", () => {
+    window.open('https://www.youtube.com/playlist?list=PLeeoIJovP8qk', '_blank');
+});
